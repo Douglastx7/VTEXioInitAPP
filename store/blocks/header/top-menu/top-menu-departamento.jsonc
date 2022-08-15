@@ -1,0 +1,70 @@
+{
+  "vtex.menu@2.x:menu#top-menu.departamento": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-todos-departamento",
+          "type": "custom",
+          "highlight": false,
+          "blockClass": "top-menu__todos-departamento",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "todos os deparamentos",
+            "text": "todos os deparamentos"
+          }
+        },
+        {
+          "id": "menu-item-departamento_1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "departamento 1",
+            "text": "departamento 1"
+          }
+        },
+        {
+          "id": "menu-item-departamento_2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "departamento 2",
+            "text": "departamento 2"
+          }
+        },
+        {
+          "id": "menu-item-novidades",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "novidades",
+            "text": "novidades"
+          }
+        },
+        {
+          "id": "menu-item-outlet",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "outlet",
+            "text": "outlet"
+          }
+        }
+      ],
+      "blockClass": ["top-menu__geral"]
+    }
+  }
+}

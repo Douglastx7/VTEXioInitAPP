@@ -14,7 +14,8 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#top-bar",
-      "sticky-layout#desktop"
+      "sticky-layout#desktop",
+      "flex-layout.row#top-menu.departamento"
     ]
   },
   "sticky-layout#desktop": {

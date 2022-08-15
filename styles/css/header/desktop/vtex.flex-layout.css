@@ -33,14 +33,21 @@
   flex-direction: row;
 }
 
+
 .flexColChild--header__col-right {
     display: flex;
     align-items: center;
+   justify-content: end;
+}
+
+.flexCol--header__col-center {
+    justify-content: center;
+    margin-right: 160px;
 }
 
 
 .flexCol--header__col-left {
-    width: 30px;
+    justify-content: start;
 }
 
 

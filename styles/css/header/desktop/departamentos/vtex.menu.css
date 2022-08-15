@@ -1,0 +1,11 @@
+/* .menuItem { 
+    margin: 0 auto;
+    max-width: 1252px;
+    justify-content: space-between;
+    background-color: blue;
+} */
+
+.styledLinkContainer { 
+    margin: 0;
+    margin-bottom: 50px;
+}
