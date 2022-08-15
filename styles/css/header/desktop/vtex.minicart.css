@@ -1,0 +1,36 @@
+.cartIcon {
+    opacity: 0;
+}
+
+.openIconContainer {
+position: relative;
+}
+
+.openIconContainer::after {
+    content: '';
+    background-image: url('assets/icons/cart-icon.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    right: 50%;
+    top: 30%;
+    transform: translateY(50%);
+    transform: translateX(50%);
+    position: absolute;
+     z-index: 1;
+}
+
+.openIconContainer::before {
+    content: '';
+    background-image: url('assets/icons/1-item.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    right: 4px;
+    top: 12px;
+   
+    position: absolute;
+     z-index: 3;
+}

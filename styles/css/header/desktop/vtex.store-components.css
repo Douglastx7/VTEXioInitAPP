@@ -1,0 +1,27 @@
+.searchIcon { 
+    opacity: 1;
+}
+
+.autoCompleteOuterContainer {
+    position: relative;
+}
+.searchBarIcon--search::after { 
+    content: '';
+    background-color: #441AFA;
+    width: 45px;
+    height: 35px;
+    right: 0;
+    position: absolute;
+}
+
+.searchBarIcon--search::before  {
+    content: '';
+    background-image: url('assets/icons/search.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 12px;
+    position: absolute;
+    z-index: 3;
+}

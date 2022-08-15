@@ -1,0 +1,127 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#top-bar",
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "blockClass":["flexCol--header__col"]
+    },
+    "children": [
+      "flex-layout.col#left__header",
+      "flex-layout.col#center__header",
+      "flex-layout.col#right__header"
+    ]
+  },
+
+ //  >>>>  COL LEFT
+  "flex-layout.col#left__header": {
+    "children": [
+      "flex-layout.col#logo-desktop"
+    ],
+     "props": {
+    "blockClass":["header__col", "header__col-left"]
+    }
+  },
+ //  >>>>  COL CENTER
+  "flex-layout.col#center__header": {
+    "children": [
+      "search-bar"
+    ],
+     "props": {
+    "blockClass":["header__col", "header__col-center"]
+    }
+  },
+ //  >>>>  COL RIGHT
+  "flex-layout.col#right__header": {
+    "children": [
+      "rich-text#info-atendimento-ao-cliente-text",
+      "login",
+      "minicart.v2"
+    ],
+     "props": {
+    "blockClass":["header__col", "header__col-right"]
+    }
+  },
+
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/imgs/logos/logo-avanti-color.png",
+      "width": "200"
+    }
+  },
+
+  //  >>> >>>>>>>>>>>>>>>>>>>>>>>>>>>  MOBILE
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      // "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  },
+  // >>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+
+  "rich-text#info-atendimento-ao-cliente-text": {
+    "props": {
+      "blockClass": [
+        "info-atendimento-ao-cliente__header"
+      ],
+      "text": "atendimento ao Cliente"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.flexRow--wrapper__top-bar { 
+    background-color: #25282A;
+    height: 32px;
+}
+
+.flexRowContent--wrapper__top-bar { 
+ max-width: 1252px;
+ margin: 0 auto;
+}
+
+.flexCol--wrapper__col { 
+    flex-direction: row;
+}
+
+
+.flexCol--wrapper__col-right { 
+    display: flex;
+    justify-content: end;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.flexRowContent--flexCol--header__col {
+    max-width: 1252px;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+}
+
+
+.flexCol--header__col {
+  flex-direction: row;
+}
+
+.flexColChild--header__col-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.flexCol--header__col-left {
+    width: 30px;
+}
+
+
+/* ===============================   TODOS OS DEPARTAMENTOS TITLE */
+

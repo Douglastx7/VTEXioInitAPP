@@ -1,0 +1,72 @@
+{
+
+    "rich-text#todos-os-departamentos-title-text": {
+        "props": {
+            "blockClass": [
+                "todos-os-departamento-title"
+            ],
+            "text": "todos os departamentos"
+        }
+    },
+    "slider-layout#home": {
+        "children": [
+            "image#departamento1",
+            "image#departamento2",
+            "image#departamento3",
+            "image#departamento4",
+            "image#departamento5",
+            "image#departamento6",
+            "image#departamento7",
+            "image#departamento8"
+        ],
+        "props": {
+            "blockClass": "slider-container",
+            "autoplay": {
+                "timeout": 7000,
+                "stopOnHover": true
+            },
+            "showPaginationDots": "never"
+        }
+    },
+    "image#departamento1": {
+        "props": {
+            "src": "assets/imgs/products/clothes.png"
+        }
+    },
+    "image#departamento2": {
+        "props": {
+            "src": "assets/imgs/products/smartwatch.png"
+        }
+    },
+    "image#departamento3": {
+        "props": {
+            "src": "assets/imgs/products/jackets.png"
+            
+        }
+    },
+    "image#departamento4": {
+        "props": {
+            "src": "assets/imgs/products/glasses.png"
+        }
+    },
+    "image#departamento5": {
+        "props": {
+            "src": "assets/imgs/products/hoodies.png"
+        }
+    },
+    "image#departamento6": {
+        "props": {
+            "src": "assets/imgs/products/games.png"
+        }
+    },
+    "image#departamento7": {
+        "props": {
+            "src": "assets/imgs/products/masks.png"
+        }
+    },
+    "image#departamento8": {
+        "props": {
+            "src": "assets/imgs/products/electronics.png"
+        }
+    }
+}

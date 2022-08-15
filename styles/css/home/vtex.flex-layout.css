@@ -1,0 +1,19 @@
+
+.flexRow--informacao-row__home {
+    max-width: 1252px;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    height: 69px;
+    
+}
+
+.flexCol--wrapper__col-info-home {
+    flex-direction: row;
+}
+
+.flexCol--sub_coluna {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
