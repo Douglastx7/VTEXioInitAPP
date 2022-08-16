@@ -1,7 +1,10 @@
 .flexRow--row__departamento { 
     margin: 0 auto;
     width: 1252px;
-    
+    height: 40px;
     background-color: #EEEEEE;
 }
 
+.menuContainer--Container_menu {
+    display: flex;
+}

@@ -55,6 +55,14 @@
     "blockClass":["header__col", "header__col-center"]
     }
   },
+
+  "search-bar": {
+    "props": {
+      "placeholder":"O que você procura?"
+    }
+  },
+
+
  //  >>>>  COL RIGHT
   "flex-layout.col#right__header": {
     "children": [

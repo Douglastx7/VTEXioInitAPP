@@ -1,11 +1,53 @@
-/* .menuItem { 
-    margin: 0 auto;
-    max-width: 1252px;
-    justify-content: space-between;
-    background-color: blue;
-} */
 
-.styledLinkContainer { 
-    margin: 0;
-    margin-bottom: 50px;
+.styledLinkContainer--items_top-menu {
+    padding-top: 12px;
+}
+
+.styledLinkContent--items_top-menu {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.menuItem--departamento_e_outros {
+    margin-left: 50px;
+}
+
+.menuItem--items_todos-os-departamentos {
+    background-color: #441AFA;
+    padding-left: 50px;
+    padding-right: 20px;
+    justify-content: start;
+    position: relative;
+}
+
+.menuItem--items_todos-os-departamentos::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-image: url('assets/icons/hamburguer-branco.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    left: 40px;
+    top: 12px;
+    position: absolute;
+}
+.styledLinkContent--items_todos-os-departamentos{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.styledLinkContent--item_depart-1,
+.styledLinkContent--item_depart-2 {
+    color: #25282A;
+    font-weight: 400;
+}
+
+.styledLinkContent--item_novidades {
+    color: #25282A;
+    font-weight: bold;
+}
+
+.styledLinkContent--item_outlet { 
+    color: #441AFA;
+    font-weight: bold;
 }

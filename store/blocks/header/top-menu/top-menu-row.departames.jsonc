@@ -4,8 +4,7 @@
             "blockClass": "row__departamento"
         },
         "children": [
-            "vtex.menu@2.x:menu#top-menu.departamento"
+            "vtex.menu@2.x:menu#top-menu.departamento" 
         ]
     }
-
 }

@@ -1,70 +1,183 @@
 {
   "vtex.menu@2.x:menu#top-menu.departamento": {
+    "children": [
+      "menu-item#todos-departamento",
+      "menu-item#depart-1",
+      "menu-item#depart-2",
+      "menu-item#novidades",
+      "menu-item#outlet"
+    ],
     "props": {
-      "items": [
-        {
-          "id": "menu-item-todos-departamento",
-          "type": "custom",
-          "highlight": false,
-          "blockClass": "top-menu__todos-departamento",
-          "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "todos os deparamentos",
-            "text": "todos os deparamentos"
-          }
-        },
-        {
-          "id": "menu-item-departamento_1",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/about-us",
-            "noFollow": false,
-            "tagTitle": "departamento 1",
-            "text": "departamento 1"
-          }
-        },
-        {
-          "id": "menu-item-departamento_2",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/about-us",
-            "noFollow": false,
-            "tagTitle": "departamento 2",
-            "text": "departamento 2"
-          }
-        },
-        {
-          "id": "menu-item-novidades",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/about-us",
-            "noFollow": false,
-            "tagTitle": "novidades",
-            "text": "novidades"
-          }
-        },
-        {
-          "id": "menu-item-outlet",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/about-us",
-            "noFollow": false,
-            "tagTitle": "outlet",
-            "text": "outlet"
-          }
-        }
-      ],
-      "blockClass": ["top-menu__geral"]
+      "blockClass": "Container_menu"
+    }
+  },
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  DEPARTAMENTOS 
+  "menu-item#todos-departamento": {
+    "props": {
+      "id": "menu-item-todos-departamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "todos os departamentos",
+        "text": "todos os departamentos"
+      },
+      "blockClass": [
+        "items_top-menu",
+        "items_todos-os-departamentos"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu_departamentos"
+    ]
+  },
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ----------------------------------- SUBMENU  DEPARTAMENTOS 
+  "vtex.menu@2.x:submenu#submenu_departamentos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#depart-1",
+      "menu-item#depart-2"
+    ]
+  },
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  ITEMS DEPARTAMENTOS 
+  "menu-item#depart-1": {
+    "props": {
+      "id": "menu-item-departamento_1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departamento 1",
+        "text": "departamento 1"
+      },
+      "blockClass": [
+        "departamento_e_outros",
+        "items_top-menu",
+        "item_depart-1"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu_categorias"
+    ]
+  },
+  "menu-item#depart-2": {
+    "props": {
+      "id": "menu-item-departamento_2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departamento 2",
+        "text": "departamento 2"
+      },
+      "blockClass": [
+        "departamento_e_outros",
+        "items_top-menu",
+        "item_depart-2"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu_categorias"
+    ]
+  },
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ----------------------------------- SUBMENU  CATEGORIAS 
+  "vtex.menu@2.x:submenu#submenu_categorias": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "sub_menu"
+    },
+    "children": [
+      "menu-item#categoria-1",
+      "menu-item#categoria-2"
+    ]
+  },
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS
+  "menu-item#categoria-1": {
+    "props": {
+      "id": "menu-categoria_1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "categoria 1",
+        "text": "categoria 1"
+      },
+      "blockClass": [
+        "categoria_1"
+      ]
+    }
+  },
+  "menu-item#categoria-2": {
+    "props": {
+      "id": "menu-categoria_2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "categoria 2",
+        "text": "categoria 1"
+      },
+      "blockClass": [
+        "categoria_2"
+      ]
+    }
+  },
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  OUTROS
+  "menu-item#novidades": {
+    "props": {
+      "id": "menu-item-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "novidades",
+        "text": "novidades"
+      },
+      "blockClass": [
+        "departamento_e_outros",
+        "items_top-menu",
+        "item_novidades"
+      ]
+    }
+  },
+  "menu-item#outlet": {
+    "props": {
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "outlet",
+        "text": "outlet"
+      },
+      "blockClass": [
+        "departamento_e_outros",
+        "items_top-menu",
+        "item_outlet"
+      ]
     }
   }
 }
