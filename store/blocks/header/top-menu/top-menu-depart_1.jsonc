@@ -11,7 +11,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "departamento 1",
-        "text": "departamento 1"
+        "text": "Departamento 1"
       },
       "blockClass": [
         "item_depart-001",
@@ -25,12 +25,20 @@
 //                                                         @@@@@@@ CHAMANDO CATEGORIAS DP-1
   "vtex.menu@2.x:submenu#categorias_do_depart-1": {
   "props": {
-    "orientation":"vertical"
+    "orientation":"vertical",
+    "blockClass": "caixa-de-categorias_depart-1"
   },
   "children": [
+    "rich-text#title_depart_1",
     "menu-item#categoria-1-depart-1",
     "menu-item#categoria-2-depart-1"
   ]
+},
+"rich-text#title_depart_1": {
+  "props": {
+    "text": "Departamento 1",
+    "blockClass":"title_depart_s"
+  }
 },
   // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS
   "menu-item#categoria-1-depart-1": {

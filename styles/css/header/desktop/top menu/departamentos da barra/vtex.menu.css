@@ -5,7 +5,7 @@
 }
 
 .styledLinkContainer--items_top-menu {
-    padding-top: 12px;
+    padding-top: 13px;
 }
 
 .styledLinkContent--items_top-menu {
@@ -20,8 +20,8 @@
 
 .menuItem--items_todos-os-departamentos {
     background-color: #441AFA;
-    padding-left: 50px;
-    padding-right: 20px;
+    padding-left: 45px;
+    padding-right: 15px;
     justify-content: start;
     position: relative;
 }
@@ -34,7 +34,7 @@
     background-size: auto;
     background-repeat: no-repeat;
     left: 40px;
-    top: 12px;
+    top: 13px;
     position: absolute;
 }
 .styledLinkContent--items_todos-os-departamentos{

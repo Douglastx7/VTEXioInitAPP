@@ -38,12 +38,12 @@
   "vtex.menu@2.x:submenu#submenu_departamentos": {
     "props": {
       "orientation": "vertical",
-      "text": "departamento teste"
+      "blockClass": "caixa-subdepartamenos"
     },
-    "blockClass": ["sub_menu_departamento-todos"],
     "children": [
       "menu-item#depart-1",
       "menu-item#depart-2"
     ]
+    
   }
 }
