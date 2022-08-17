@@ -1,7 +1,16 @@
-.container--title_depart_s {
+.container--title_depart_s,
+.container--title_categ_s {
     color: #441AFA;
     margin-left: 23px;
     font-size: 16px;
     font-weight: bold;
 }
 
+.container--ver-todos_x {
+    color: #25282A;
+    margin-left: 23px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}

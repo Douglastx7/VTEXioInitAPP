@@ -39,7 +39,7 @@
     "blockClass":"title_depart_s"
   }
 },
-  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS 1
   "menu-item#categoria-1-depart-2": {
     "props": {
       "id": "menu-categoria_1_depart-2",
@@ -54,10 +54,19 @@
         "text": "categoria 1"
       },
       "blockClass": [
-        "categoria_1_depart-2"
+        "categoria_1_depart-2",
+        "categ-00x"
       ]
     }
   },
+    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CATEGORIA e SUBs 
+
+
+
+   
+
+
+   // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS 2
   "menu-item#categoria-2-depart-2": {
     "props": {
       "id": "menu-categoria_2_depart-2",
@@ -72,8 +81,11 @@
         "text": "categoria 2"
       },
       "blockClass": [
-        "categoria_2_depart-2"
+        "categoria_2_depart-2",
+        "categ-00x"
       ]
     }
   }
+
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CATEGORIA e SUBs 
 }

@@ -25,7 +25,7 @@
   },
   "vtex.menu@2.x:submenu#categoria_do_departamento_1_da_barra": {
     "props": {
-      "blockClass": "departamento-1-da-barra",
+      "blockClass": ["departamento-1-da-barra"],
       "orientation":"vertical"
     },
     "children": [
@@ -49,7 +49,8 @@
         "text": "categoria 1"
       },
       "blockClass": [
-        "categoria_1_do_depart-1-da-barra"
+        "categoria_1_do_depart-1-da-barra",
+        "todos_depart-da-barra"
       ]
     }
   },
@@ -67,7 +68,8 @@
         "text": "categoria 2"
       },
       "blockClass": [
-        "categoria_2_do_depart-1-da-barra"
+        "categoria_2_do_depart-1-da-barra",
+        "todos_depart-da-barra"
       ]
     }
   },
@@ -85,7 +87,8 @@
         "text": "categoria 3"
       },
       "blockClass": [
-        "categoria_3_do_depart-1-da-barra"
+        "categoria_3_do_depart-1-da-barra",
+        "todos_depart-da-barra"
       ]
     }
   },
@@ -119,7 +122,7 @@
   },
   "vtex.menu@2.x:submenu#categoria_do_departamento_2_da_barra": {
     "props": {
-      "blockClass": "departamento-2-da-barra",
+      "blockClass":["departamento-2-da-barra"],
       "orientation":"vertical"
     },
     "children": [
@@ -143,7 +146,8 @@
         "text": "categoria 1"
       },
       "blockClass": [
-        "categoria_1_do_depart-2-da-barra"
+        "categoria_1_do_depart-2-da-barra",
+        "todos_depart-da-barra"
       ]
     }
   },
@@ -161,7 +165,8 @@
         "text": "categoria 2"
       },
       "blockClass": [
-        "categoria_2_do_depart-2-da-barra"
+        "categoria_2_do_depart-2-da-barra",
+        "todos_depart-da-barra"
       ]
     }
   },
@@ -179,7 +184,8 @@
         "text": "categoria 3"
       },
       "blockClass": [
-        "categoria_3_do_depart-2-da-barra"
+        "categoria_3_do_depart-2-da-barra",
+        "todos_depart-da-barra"
       ]
     }
   }

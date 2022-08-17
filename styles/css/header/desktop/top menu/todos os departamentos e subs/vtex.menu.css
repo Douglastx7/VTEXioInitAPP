@@ -1,4 +1,8 @@
 
+
+
+/* ======================================================================   CAIXA DEPARTAMENTO */
+
 .menuItem--items_todos-os-departamentos {
  position: relative;
 }
@@ -15,19 +19,8 @@
   align-items: flex-start;
 }
 
-
-.styledLinkContent--depart-00x {
-font-size: 14px;
-color: #25282A;
-}
-
-.styledLinkContent--depart-00x:hover { 
-  font-weight: bold;
-  color: #441AFA;
-}
-
-.menuItem--depart-00x { 
-position: relative;
+.menuItem--depart-00x:hover {
+  background-color: #EEEEEE;
 }
 
 
@@ -59,7 +52,23 @@ position: relative;
   position: absolute;
 }
 
-/* ======================================================================   CATEGORIAS */
+.styledLinkContent--depart-00x {
+font-size: 14px;
+color: #25282A;
+}
+
+.styledLinkContent--depart-00x:hover { 
+  font-weight: bold;
+  color: #441AFA;
+}
+
+.menuItem--depart-00x { 
+position: relative;
+}
+
+
+
+/* ======================================================================  CAIXA CATEGORIAS */
 
 .submenuWrapper--caixa-de-categorias_depart-1 {
   background-color: #FFFFFF;
@@ -83,4 +92,101 @@ position: relative;
   box-shadow: 0px 13px 20px #0000000D;
   position: absolute;
   align-items: flex-start;
+}
+
+.menuItem--categ-00x {
+  position: relative;
+}
+
+.menuItem--categ-00x:hover {
+  background-color: #EEEEEE;
+}
+
+.styledLinkContent--categ-00x {
+  font-size: 14px;
+color: #25282A;
+}
+
+.styledLinkContent--categ-00x:hover {
+  font-weight: bold;
+  color: #441AFA;
+}
+
+.menuItem--categ-00x::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url('assets/icons/seta-preta.png');
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.menuItem--categ-00x:hover::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-image: url('assets/icons/seta-azulOUroxa.png');
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+
+
+/* ======================================================================   CAIXA SUBcategoria */
+
+
+
+
+
+.submenuWrapper--caixa-de-categorias_1_sub {
+  background-color: #FFFFFF;
+  width: 298px;
+  height: 366px;
+  top: -116px;
+  left: 298px;
+  border: none;
+  box-shadow: 0px 13px 20px #0000000D;
+  position: absolute;
+  align-items: flex-start;
+}
+
+.submenuWrapper--caixa-de-categorias_2_sub {
+  background-color: #FFFFFF;
+  width: 298px;
+  height: 366px;
+  top: -164px;
+  left: 298px;
+  border: none;
+  box-shadow: 0px 13px 20px #0000000D;
+  position: absolute;
+  align-items: flex-start;
+}
+
+
+.menuItem--subcateg-00x {
+  position: relative;
+}
+
+.menuItem--subcateg-00x:hover {
+  background-color: #EEEEEE;
+}
+
+.styledLinkContent--subcateg-00x {
+  font-size: 14px;
+color: #25282A;
+}
+
+.styledLinkContent--subcateg-00x:hover {
+  font-weight: bold;
+  color: #441AFA;
 }
