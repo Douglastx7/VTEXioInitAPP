@@ -1,0 +1,72 @@
+{
+    
+  "menu-item#depart-1": {
+    "props": {
+      "id": "menu-item-departamento_001",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departamento 1",
+        "text": "departamento 1"
+      },
+      "blockClass": [
+        "item_depart-001",
+        "depart-00x"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#categorias_do_depart-1"
+    ]
+  },
+//                                                         @@@@@@@ CHAMANDO CATEGORIAS DP-1
+  "vtex.menu@2.x:submenu#categorias_do_depart-1": {
+  "props": {
+    "orientation":"vertical"
+  },
+  "children": [
+    "menu-item#categoria-1-depart-1",
+    "menu-item#categoria-2-depart-1"
+  ]
+},
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS
+  "menu-item#categoria-1-depart-1": {
+    "props": {
+      "id": "menu-categoria_1_depart-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "categoria 1",
+        "text": "categoria 1"
+      },
+      "blockClass": [
+        "categoria_1_depart-1"
+      ]
+    }
+  },
+  "menu-item#categoria-2-depart-1": {
+    "props": {
+      "id": "menu-categoria_2_depart-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "categoria 2",
+        "text": "categoria 2"
+      },
+      "blockClass": [
+        "categoria_2_depart-1"
+      ]
+    }
+  }
+}

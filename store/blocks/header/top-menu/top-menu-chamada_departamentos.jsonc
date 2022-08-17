@@ -1,0 +1,49 @@
+{
+  "vtex.menu@2.x:menu#top-menu.departamento": {
+    "children": [
+      "menu-item#todos-departamento",
+      "menu-item#departamento_1_da_barra",
+      "menu-item#departamento_2_da_barra",
+      "menu-item#novidades",
+      "menu-item#outlet"
+    ],
+    "props": {
+      "blockClass": "Container_menu"
+    }
+  },
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  DEPARTAMENTOS 
+  "menu-item#todos-departamento": {
+    "props": {
+      "id": "menu-item-todos-departamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "todos os departamentos",
+        "text": "todos os departamentos"
+      },
+      "blockClass": [
+        "items_top-menu",
+        "items_todos-os-departamentos"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu_departamentos"
+    ]
+  },
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ------ SUBMENU  DEPARTAMENTOS 
+  "vtex.menu@2.x:submenu#submenu_departamentos": {
+    "props": {
+      "orientation": "vertical",
+      "text": "departamento teste"
+    },
+    "blockClass": ["sub_menu_departamento-todos"],
+    "children": [
+      "menu-item#depart-1",
+      "menu-item#depart-2"
+    ]
+  }
+}
