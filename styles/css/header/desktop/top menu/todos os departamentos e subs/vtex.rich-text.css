@@ -14,3 +14,9 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+
+.menuItem--depart-00x--isOpen {
+    font-weight: bold;
+    color: #441AFA;
+  }

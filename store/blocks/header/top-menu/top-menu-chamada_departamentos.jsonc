@@ -11,6 +11,9 @@
       "blockClass": "Container_menu"
     }
   },
+
+
+  
   // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  DEPARTAMENTOS 
   "menu-item#todos-departamento": {
     "props": {
@@ -34,6 +37,9 @@
       "vtex.menu@2.x:submenu#submenu_departamentos"
     ]
   },
+
+
+
   // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ------ SUBMENU  DEPARTAMENTOS 
   "vtex.menu@2.x:submenu#submenu_departamentos": {
     "props": {
@@ -44,6 +50,5 @@
       "menu-item#depart-1",
       "menu-item#depart-2"
     ]
-    
   }
 }

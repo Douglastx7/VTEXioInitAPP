@@ -65,4 +65,9 @@
   text-decoration: underline;
   position: relative;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.formTitle {
+  background-color: aqua;
 }

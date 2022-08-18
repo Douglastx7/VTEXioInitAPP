@@ -74,17 +74,14 @@
     align-items: flex-start;
 }
 
-.menuItem--categoria_2_do_depart-1-da-barra:hover, 
-.menuItem--todos_depart-da-barra:hover {
-    background-color: #EEEEEE;
-    
-}
 
-.styledLinkContent--todos_depart-da-barra:hover {
-    color: #441AFA;
+.menuItem--categoria_2_do_depart-1-da-barra--isOpen .styledLinkContent--todos_depart-da-barra {
     font-weight: bold;
-}
-
+    color: #441AFA;
+  }
+  .menuItem--categoria_2_do_depart-1-da-barra--isOpen {
+    background-color: #EEEEEE;
+  }
 
  
 

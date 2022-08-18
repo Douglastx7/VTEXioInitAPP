@@ -21,3 +21,64 @@
     transform: translateX(50%);
     position: absolute;
 }
+
+.formTitle {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.accessCodeOptionBtn button { 
+    background-color: #FFFFFF;
+    border-radius: 0;
+    width: 267px;
+    height: 48px;
+}
+
+.accessCodeOptionBtn button span {
+    font-weight: bold;
+    font-size: 15px;
+    color: #441AFA;
+    text-transform: none;
+}
+
+.accessCodeOptionBtn button {
+    border: solid 1px #B1B3B3;
+}
+
+
+
+.emailPasswordOptionBtn button { 
+    background-color: #FFFFFF;
+    border-radius: 0;
+    width: 267px;
+    height: 48px;
+}
+
+
+.emailPasswordOptionBtn span {
+    font-weight: bold;
+    font-size: 15px;
+    color: #441AFA;
+    text-transform: none;
+}
+
+
+.buttonSocial button{
+    background-color: #FFFFFF;
+    border-radius: 0;
+    width: 267px;
+    height: 48px;
+}
+
+.buttonSocial span {
+    font-weight: bold;
+    font-size: 15px;
+    color: #441AFA;
+    text-transform: none;
+}
+
+
+
+
