@@ -1,4 +1,5 @@
 {
+ 
     //----->>>>>>>>>>>>>>> COLUNA PRINCIPAL
     "flex-layout.row#informacao-home": {
         "children": [

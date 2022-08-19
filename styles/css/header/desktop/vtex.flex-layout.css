@@ -1,19 +1,19 @@
-.flexRow--wrapper__top-bar { 
-    background-color: #25282A;
+.flexRow--wrapper__top-bar {
+    background-color: #25282A !important;
     height: 32px;
 }
 
-.flexRowContent--wrapper__top-bar { 
- max-width: 1252px;
- margin: 0 auto;
+.flexRowContent--wrapper__top-bar {
+    max-width: 1252px;
+    margin: 0 auto;
 }
 
-.flexCol--wrapper__col { 
+.flexCol--wrapper__col {
     flex-direction: row;
 }
 
 
-.flexCol--wrapper__col-right { 
+.flexCol--wrapper__col-right {
     display: flex;
     justify-content: end;
 }
@@ -21,6 +21,9 @@
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+.flexRow {
+    background-color: #EEEEEE;
+}
 
 .flexRowContent--flexCol--header__col {
     max-width: 1252px;
@@ -30,14 +33,14 @@
 
 
 .flexCol--header__col {
-  flex-direction: row;
+    flex-direction: row;
 }
 
 
 .flexColChild--header__col-right {
     display: flex;
     align-items: center;
-   justify-content: end;
+    justify-content: end;
 }
 
 .flexCol--header__col-center {
@@ -51,5 +54,4 @@
 }
 
 
-/* ===============================   TODOS OS DEPARTAMENTOS TITLE */
-
+/* ====================================== LOGO HEADER */

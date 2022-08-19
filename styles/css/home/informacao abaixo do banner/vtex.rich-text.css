@@ -1,0 +1,77 @@
+.wrapper--txt1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #25282A;
+  font-size: 12px;
+}
+
+.wrapper--txt2 {
+    text-transform: uppercase;
+    margin-left: 5px;
+    color: #25282A;
+    font-size: 12px;
+}
+/* ----------------------------- ICONS */
+.wrapper--icon-frete {
+    position: relative;
+}
+.wrapper--icon-frete::after {
+    content: '';
+    background-image: url('assets/icons/box-icon.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 6px;
+    position: absolute;
+}
+
+/* ----------------------------- ICONS */
+.wrapper--icon-primeira-troca {
+    position: relative;
+}
+.wrapper--icon-primeira-troca::after {
+    content: '';
+    background-image: url('assets/icons/exchange-icon.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 7px;
+    position: absolute;
+}
+
+/* ----------------------------- ICONS */
+.wrapper--icon-ate-12x {
+    position: relative;
+}
+.wrapper--icon-ate-12x::after {
+    content: '';
+    background-image: url('assets/icons/credit-card-icon.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 10px;
+    position: absolute;
+}
+
+/* ----------------------------- ICONS */
+.wrapper--icon-encontre-parce {
+    position: relative;
+}
+.wrapper--icon-encontre-parce::after {
+    content: '';
+    background-image: url('assets/icons/shopping-icon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 6px;
+    position: absolute;
+}
+

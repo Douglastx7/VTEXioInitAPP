@@ -4,6 +4,7 @@
    max-width: 1252px;
 }
 
+
 .styledLinkContainer--items_top-menu {
     padding-top: 13px;
 }
@@ -16,12 +17,14 @@
 
 .menuItem--departamento_e_outros {
     margin-left: 30px;
+    margin-top: 3px;
 }
 
 .menuItem--items_todos-os-departamentos {
     background-color: #441AFA;
     padding-left: 45px;
     padding-right: 15px;
+    padding-top: 3px;
     justify-content: start;
     position: relative;
 }
@@ -34,7 +37,7 @@
     background-size: auto;
     background-repeat: no-repeat;
     left: 40px;
-    top: 13px;
+    top: 15px;
     position: absolute;
 }
 .styledLinkContent--items_todos-os-departamentos{

@@ -1,11 +1,18 @@
-.searchIcon { 
+.searchIcon {
     opacity: 1;
 }
 
 .autoCompleteOuterContainer {
     position: relative;
+    margin-right: -35px;
 }
-.searchBarIcon--search::after { 
+
+
+.searchIcon {
+    opacity: 0;
+}
+
+.searchBarIcon--search::after {
     content: '';
     background-color: #441AFA;
     width: 45px;
@@ -14,10 +21,10 @@
     position: absolute;
 }
 
-.searchBarIcon--search::before  {
+.searchBarIcon--search::before {
     content: '';
     background-image: url('assets/icons/search.png');
-   background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
@@ -26,3 +33,16 @@
     z-index: 3;
 }
 
+
+.logoImage {
+    display: flex;
+    justify-content: start;
+}
+
+
+
+/* ============ INPUT */
+
+.searchBarContainer {
+    margin-top: 5px;
+}
