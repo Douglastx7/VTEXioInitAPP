@@ -1,3 +1,5 @@
 .sliderLayoutContainer--slider-container {
      margin-bottom: 80px;
+     max-width: 1252px;
+     margin: 0 auto;
 }

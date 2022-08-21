@@ -5,20 +5,113 @@
       "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
     },
     "footer-layout.desktop": {
-      "children": ["newsletter-form",
+      "children": [
+        "flex-layout.row#background-do-row",
         "flex-layout.row#footer-1-desktop",
         "flex-layout.row#footer-2-desktop",
         "flex-layout.row#footer-3-desktop"
       ]
     },
 
+    // ________________________________ NEWSLWTTER - FORM  : top do footer
+
+  
+    "flex-layout.row#background-do-row": { 
+      "children": [
+        "flex-layout.row#row-do-newsletter"
+      ],
+      "props": {
+        "blockClass": "background-do-row"
+      }
+    },
+
+    "flex-layout.row#row-do-newsletter": { 
+      "children": [
+        "logo#logo-footer",
+        "flex-layout.col#col-do-logo_e_title",
+        "newsletter-form"
+      ],
+      "props": {
+        "blockClass": "box_top_footer"
+      }
+    },
+    
+    "flex-layout.col#col-do-logo_e_title": { 
+      "children": [
+        "flex-layout.col#col_dos_texts"
+      ]
+    },
+
+
+    "logo#logo-footer": {
+      "props": {
+        "title": "Logo-avanti",
+        "href": "/",
+        "url": "assets/imgs/logos/footer-logo-avanti.png",
+        "width": "118",
+        "height": "85",
+        "blockClass": "logo_footer"
+      }
+    },
+
+    "flex-layout.col#col_dos_texts": { 
+      "children": [
+        "rich-text#title-newslatter",
+        "rich-text#descrition-newslatter"
+      ],
+      "props": {
+        "blockClass": "coluna_dos_texts"
+      }
+    },
+    
+    "rich-text#title-newslatter": {
+      "props": {
+        "text":"Newsletter"
+      }
+    },
+    "rich-text#descrition-newslatter": {
+      "props": {
+        "text":"Receba promoções e descontos especiais em primeira mão."
+      }
+    },
+
+
     "newsletter-form": {
       "children": [
-        "newsletter-input-email",
+        "flex-layout.row#row_dos_components_do_newslatter"
+      ],
+      "props": {
+        "blockClass": "class_newsletter-form"
+      }
+    },
+
+    "flex-layout.row#row_dos_components_do_newslatter": {
+      "children": [
         "newsletter-input-name",
+        "newsletter-input-email",
         "newsletter-submit"
       ]
     },
+
+    "newsletter-input-name": {
+      "props": {
+       "blockClass": "_name_"
+      }
+    },
+    "newsletter-input-email": { 
+      "props": {
+        "blockClass": "_email_"
+      }
+    },
+    "newsletter-submit":{
+      "props": {
+        "blockClass": "_submit_",
+        "submitButtonLabel": "cadastre-se"
+      }
+    },
+
+
+    // ______________________________________________________________________________
 
     "flex-layout.row#footer-1-desktop": {
       "children": [

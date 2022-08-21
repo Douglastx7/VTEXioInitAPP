@@ -1,0 +1,18 @@
+
+.flexRow--background-do-row {
+    margin-top: 200px;
+}
+
+.flexRow--box_top_footer {
+    max-width: 1252px;
+    margin: 0 auto;
+}
+
+.flexRowContent--box_top_footer { 
+    justify-content: start;
+}
+
+.flexCol--coluna_dos_texts {
+    background-color: blueviolet;
+}
+
