@@ -1,4 +1,55 @@
-.newsletterForm--class_newsletter-form {
+.newsletterForm--class_newsletter-form { 
+    display: flex;
     align-items: center;
-    background-color: aquamarine;
 }
+
+
+
+  .nameInputContainer--_name_ :global(.vtex-styleguide-9-x-input),
+  .emailInputContainer--_email_ :global(.vtex-styleguide-9-x-input)
+  {
+    background-color: transparent;
+    width: 260px;
+    height: 40px;
+    border: solid 1px #B1B3B3;
+    border-radius: 0;
+  }
+
+  .nameInputContainer--_name_ :global(.vtex-input-prefix__group){
+    width: 260px;
+    height: 44px;
+    border-radius: 0;
+    margin-left: -50px;
+    border: none;
+}
+
+    .emailInputContainer--_email_ :global(.vtex-input-prefix__group) {
+        width: 260px;
+        height: 44px;
+        border: none;
+        border-radius: 0;
+    }
+
+
+    .nameInputContainer--_name_ :global(.vtex-styleguide-9-x-input)::placeholder ,
+    .emailInputContainer--_email_ :global(.vtex-styleguide-9-x-input)::placeholder
+     {
+        color: #25282A;
+    }
+
+ 
+
+ 
+
+
+
+
+
+  .formSubmitContainer--_submit_ :global(.vtex-button) {
+    background-color: transparent;
+    color: #441AFA;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    margin-left: 45px;
+  }

@@ -1,75 +1,75 @@
 {
-    "vtex.menu@2.x:menu#Products": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#news",
-        "menu-item#blackfriday",
-        "menu-item#sale",
-        "menu-item#personalization"
-      ]
-    },
-    "menu-item#news": {
-      "props": {
-        "id": "menu-item-news",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "News",
-          "text": "News"
-        }
-      }
-    },
-    "menu-item#blackfriday": {
-      "props": {
-        "id": "menu-item-black-friday",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "BlackFriday",
-          "text": "Black Friday"
-        }
-      }
-    },
-    "menu-item#sale": {
-      "props": {
-        "id": "menu-item-sale",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Sale",
-          "text": "Sale"
-        }
-      }
-    },
-    "menu-item#personalization": {
-      "props": {
-        "id": "menu-item-personalization",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Personalization",
-          "text": "Personalization"
-        }
-      }
-    },
+    // "vtex.menu@2.x:menu#Products": {
+    //   "props": {
+    //     "orientation": "vertical"
+    //   },
+    //   "children": [
+    //     "menu-item#A-marca",
+    //     "menu-item#blackfriday",
+    //     "menu-item#sale",
+    //     "menu-item#personalization"
+    //   ]
+    // },
+    // "menu-item#A-marca": {
+    //   "props": {
+    //     "id": "menu-item-A-marca",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "#",
+    //       "noFollow": false,
+    //       "tagTitle": "A marca",
+    //       "text": "A marca"
+    //     }
+    //   }
+    // },
+    // "menu-item#blackfriday": {
+    //   "props": {
+    //     "id": "menu-item-black-friday",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "#",
+    //       "noFollow": false,
+    //       "tagTitle": "BlackFriday",
+    //       "text": "Black Friday"
+    //     }
+    //   }
+    // },
+    // "menu-item#sale": {
+    //   "props": {
+    //     "id": "menu-item-sale",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "#",
+    //       "noFollow": false,
+    //       "tagTitle": "Sale",
+    //       "text": "Sale"
+    //     }
+    //   }
+    // },
+    // "menu-item#personalization": {
+    //   "props": {
+    //     "id": "menu-item-personalization",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "#",
+    //       "noFollow": false,
+    //       "tagTitle": "Personalization",
+    //       "text": "Personalization"
+    //     }
+    //   }
+    // },
   
     "vtex.menu@2.x:menu#footer-decoration": {
       "props": {
@@ -189,43 +189,173 @@
       }
     },
   
+
+//  ____________________________________________________________  PRIMEIRO BLOCO
+
     "vtex.menu@2.x:menu#footer-clothing": {
       "props": {
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#clothing",
-        "menu-item#shorts",
-        "menu-item#tank-tops",
-        "menu-item#shirts",
-        "menu-item#sweatshirt",
-        "menu-item#cropped"
+
+        "menu-item#institucional-desktop",
+        "menu-item#a-marca-desktop",
+        "menu-item#sobre-nos-desktop",
+        "menu-item#seja-um-representante-desktop",
+        "menu-item#seja-um-revendedor-desktop",
+        "menu-item#vendas-corporativas-desktop",
+        "menu-item#catalago-desktop"
+
+
+        // "menu-item#clothing",
+        // "menu-item#shorts",
+        // "menu-item#tank-tops",
+        // "menu-item#shirts",
+        // "menu-item#sweatshirt",
+        // "menu-item#cropped"
       ]
     },
   
-    "vtex.menu@2.x:menu#footer-mobile": {
+
+    "menu-item#institucional-desktop": {
       "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#clothing-mobile",
-        "menu-item#decoration-mobile",
-        "menu-item#sale-mobile"
-      ]
-    },
-  
-    "menu-item#clothing-mobile": {
-      "props": {
-        "id": "menu-item-category-clothing",
+        "id": "institucional-desktop",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/d",
+          "href": "/",
           "noFollow": true,
-          "tagTitle": "Clothing",
-          "text": "Clothing"
+          "tagTitle": "Institucional",
+          "text": "Institucional"
+        }
+      }
+    },
+    "menu-item#a-marca-desktop": {
+      "props": {
+        "id": "a-marca",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "A Marca",
+          "text": "A Marca"
+        }
+      }
+    },
+    "menu-item#sobre-nos-desktop": {
+      "props": {
+        "id": "sobre-nos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Sobre Nós",
+          "text":  "Sobre Nós"
+        }
+      }
+    },
+    "menu-item#seja-um-representante-desktop": {
+      "props": {
+        "id": "seja-um-representante",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Seja um Representante",
+          "text":  "Seja um Representante"
+        }
+      }
+    },
+    "menu-item#seja-um-revendedor-desktop": {
+      "props": {
+        "id": "seja-um-revendedor",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Seja um Revendedor",
+          "text":  "Seja um Revendedor"
+        }
+      }
+    },
+    "menu-item#vendas-corporativas-desktop": {
+      "props": {
+        "id": "vendas-corporativas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "vendas Corporativas",
+          "text":  "vendas Corporativas"
+        }
+      }
+    },
+    "menu-item#catalago-desktop": {
+      "props": {
+        "id": "catalago",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Catálago",
+          "text":  "Catálago"
+        }
+      }
+    },
+
+
+
+
+
+
+//  ---------------------------------------------------- MOBILE
+
+    "vtex.menu@2.x:menu#footer-mobile": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#institucional-mobile",
+        "menu-item#precisa-de-ajuda-mobile",
+        "menu-item#fale-conosco-mobile"
+      ]
+    },
+
+//  ---------------------------------------------------- MOBILE
+
+  
+    "menu-item#institucional-mobile": {
+      "props": {
+        "id": "menu-item-category-institucional",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/institucional/d",
+          "noFollow": true,
+          "tagTitle": "institucional",
+          "text": "Institucional"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -239,19 +369,30 @@
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#shorts",
-        "menu-item#tank-tops",
-        "menu-item#shirts",
-        "menu-item#sweatshirt",
-        "menu-item#cropped"
+        // "menu-item#shorts",
+        // "menu-item#tank-tops",
+        // "menu-item#shirts",
+        // "menu-item#sweatshirt",
+        // "menu-item#cropped"
+
+
+    
+        "menu-item#a-marca-desktop",
+        "menu-item#sobre-nos-desktop",
+        "menu-item#seja-um-representante-desktop",
+        "menu-item#seja-um-revendedor-desktop",
+        "menu-item#vendas-corporativas-desktop",
+        "menu-item#catalago-desktop"
+
+
       ]
     },
   
-    "menu-item#decoration-mobile": {
+    "menu-item#precisa-de-ajuda-mobile": {
       "props": {
         "itemProps": {
-          "tagTitle": "Decoration",
-          "text": "Decoration"
+          "tagTitle": "Precisa de ajuda?",
+          "text": "Precisa de ajuda?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
@@ -271,11 +412,11 @@
       ]
     },
   
-    "menu-item#sale-mobile": {
+    "menu-item#fale-conosco-mobile": {
       "props": {
         "itemProps": {
-          "tagTitle": "Sale",
-          "text": "Sale"
+          "tagTitle": "Fale Conosco",
+          "text": "Fale Conosco"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
@@ -293,102 +434,102 @@
         "menu-item#videogames",
         "menu-item#tvs"
       ]
-    },
-  
-    "menu-item#clothing": {
-      "props": {
-        "id": "menu-item-category-clothing",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/clothing/d",
-          "noFollow": true,
-          "tagTitle": "Clothing",
-          "text": "Clothing"
-        }
-      }
-    },
-  
-    "menu-item#shorts": {
-      "props": {
-        "id": "menu-item-shorts",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/clothing/shorts",
-          "noFollow": false,
-          "tagTitle": "Shorts",
-          "text": "Shorts"
-        }
-      }
-    },
-  
-    "menu-item#tank-tops": {
-      "props": {
-        "id": "menu-item-tank-tops",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/clothing/tank-tops",
-          "noFollow": false,
-          "tagTitle": "Tank tops",
-          "text": "Tank tops"
-        }
-      }
-    },
-  
-    "menu-item#shirts": {
-      "props": {
-        "id": "menu-item-shirts",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/clothing/shirts",
-          "noFollow": false,
-          "tagTitle": "Shirts",
-          "text": "Shirts"
-        }
-      }
-    },
-  
-    "menu-item#sweatshirt": {
-      "props": {
-        "id": "menu-item-sweat-shirts",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/clothing/sweatshirt",
-          "noFollow": false,
-          "tagTitle": "Sweatshirt",
-          "text": "Sweatshirt"
-        }
-      }
-    },
-  
-    "menu-item#cropped": {
-      "props": {
-        "id": "menu-item-cropped",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/clothing/cropped",
-          "noFollow": false,
-          "tagTitle": "Cropped",
-          "text": "Cropped"
-        }
-      }
     }
+  
+    // "menu-item#clothing": {
+    //   "props": {
+    //     "id": "menu-item-category-clothing",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "/clothing/d",
+    //       "noFollow": true,
+    //       "tagTitle": "Clothing",
+    //       "text": "Clothing"
+    //     }
+    //   }
+    // },
+  
+    // "menu-item#shorts": {
+    //   "props": {
+    //     "id": "menu-item-shorts",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "/clothing/shorts",
+    //       "noFollow": false,
+    //       "tagTitle": "Shorts",
+    //       "text": "Shorts"
+    //     }
+    //   }
+    // },
+  
+    // "menu-item#tank-tops": {
+    //   "props": {
+    //     "id": "menu-item-tank-tops",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "/clothing/tank-tops",
+    //       "noFollow": false,
+    //       "tagTitle": "Tank tops",
+    //       "text": "Tank tops"
+    //     }
+    //   }
+    // },
+  
+    // "menu-item#shirts": {
+    //   "props": {
+    //     "id": "menu-item-shirts",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "/clothing/shirts",
+    //       "noFollow": false,
+    //       "tagTitle": "Shirts",
+    //       "text": "Shirts"
+    //     }
+    //   }
+    // },
+  
+    // "menu-item#sweatshirt": {
+    //   "props": {
+    //     "id": "menu-item-sweat-shirts",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "/clothing/sweatshirt",
+    //       "noFollow": false,
+    //       "tagTitle": "Sweatshirt",
+    //       "text": "Sweatshirt"
+    //     }
+    //   }
+    // },
+  
+    // "menu-item#cropped": {
+    //   "props": {
+    //     "id": "menu-item-cropped",
+    //     "type": "custom",
+    //     "iconId": null,
+    //     "highlight": false,
+    //     "itemProps": {
+    //       "type": "internal",
+    //       "href": "/clothing/cropped",
+    //       "noFollow": false,
+    //       "tagTitle": "Cropped",
+    //       "text": "Cropped"
+    //     }
+    //   }
+    // }
   }
   

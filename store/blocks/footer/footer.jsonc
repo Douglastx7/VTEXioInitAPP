@@ -27,7 +27,6 @@
 
     "flex-layout.row#row-do-newsletter": { 
       "children": [
-        "logo#logo-footer",
         "flex-layout.col#col-do-logo_e_title",
         "newsletter-form"
       ],
@@ -38,8 +37,12 @@
     
     "flex-layout.col#col-do-logo_e_title": { 
       "children": [
+        "logo#logo-footer",
         "flex-layout.col#col_dos_texts"
-      ]
+      ],
+      "props": {
+         "blockClass": "logo_e_titles"
+      }
     },
 
 
@@ -66,12 +69,14 @@
     
     "rich-text#title-newslatter": {
       "props": {
-        "text":"Newsletter"
+        "text":"Newsletter",
+        "blockClass": "_title_"
       }
     },
     "rich-text#descrition-newslatter": {
       "props": {
-        "text":"Receba promoções e descontos especiais em primeira mão."
+        "text":"Receba promoções e descontos especiais em primeira mão.",
+        "blockClass": "_description_"
       }
     },
 
@@ -95,12 +100,14 @@
 
     "newsletter-input-name": {
       "props": {
-       "blockClass": "_name_"
+       "blockClass": "_name_",
+       "placeholderText": "Nome"
       }
     },
     "newsletter-input-email": { 
       "props": {
-        "blockClass": "_email_"
+        "blockClass": "_email_",
+        "placeholderText": "E-mail"
       }
     },
     "newsletter-submit":{
@@ -115,7 +122,7 @@
 
     "flex-layout.row#footer-1-desktop": {
       "children": [
-        "vtex.menu@2.x:menu#Products",
+        // "vtex.menu@2.x:menu#Products",
         "vtex.menu@2.x:menu#footer-clothing",
         "vtex.menu@2.x:menu#footer-decoration",
         "vtex.menu@2.x:menu#footer-bags",
