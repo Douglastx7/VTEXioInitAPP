@@ -1,0 +1,10 @@
+.imageElement--icons-facebook {
+    
+    position: absolute;
+    right: 60px;
+}
+
+.imageElement--icons-instagram {
+    position: absolute;
+    right: 0px;
+}

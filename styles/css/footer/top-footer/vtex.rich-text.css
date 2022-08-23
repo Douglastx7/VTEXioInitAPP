@@ -6,12 +6,13 @@
     text-transform: uppercase;
     margin-top: 10px;
     margin-left: 20px;
+    letter-spacing: 2.4px;
 }
 
 .wrapper--_description_ {
-    width: 370px;
+    width: 320px;
     color: #25282A;
-    font-size: 19px;
+    font-size: 16px;
     padding: 0;
     margin-left: 20px;
     margin-top: -30px;

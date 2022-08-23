@@ -37,19 +37,12 @@
         color: #25282A;
     }
 
- 
-
- 
-
-
-
-
-
   .formSubmitContainer--_submit_ :global(.vtex-button) {
     background-color: transparent;
     color: #441AFA;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
     border: none;
-    margin-left: 45px;
+    margin-left: 53px;
+    letter-spacing: 1.4px;
   }

@@ -1,0 +1,30 @@
+
+.flexRow--box-credits-bottom-0 {
+    background-color: #FFFFFF;
+    max-width: 1252px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+
+
+.flexRow--box-credits-bottom-0::after {
+    content: "";
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    z-index: -100;
+} 
+
+.flexCol--box-logos-bottom-footer-desktop {
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.flexColChild--box-logos-bottom-footer-desktop {
+    display: flex;
+    align-items: center;
+}
