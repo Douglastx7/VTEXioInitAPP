@@ -1,0 +1,21 @@
+
+.flexRow--background-do-row {
+    margin-top: 200px;
+}
+
+.flexRow--box_top_footer {
+    max-width: 1252px;
+    height: 172px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent--box_top_footer { 
+    justify-content: start;
+}
+
+
+.flexCol--logo_e_titles {
+    flex-direction: row;
+}

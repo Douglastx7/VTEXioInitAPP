@@ -1,0 +1,35 @@
+
+.container--_title_ {
+    color: #441AFA;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 20px;
+    letter-spacing: 2.4px;
+  position: relative;
+}
+
+.container--_title_::before {
+    content: '';
+    width: 308px;
+    height: 358px;
+    background-image: url('assets/imgs/logos/logo-transparente.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 25px;
+    left: -463px;
+    position: absolute;
+}
+
+
+
+.wrapper--_description_ {
+    width: 320px;
+    color: #25282A;
+    font-size: 16px;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: -30px;
+}

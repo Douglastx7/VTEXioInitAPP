@@ -1,0 +1,22 @@
+@media (max-width: 1020px) {
+    .paragraph--footer {
+        text-align: center;
+        margin: 0 auto;
+        background-color: #ffff;
+    } 
+
+    /* .container--footer {
+        position: relative;
+        z-index: 100;
+    }
+
+    .container--footer::after {
+        content: "";
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        position: absolute;
+        z-index: -100;
+    } */
+}

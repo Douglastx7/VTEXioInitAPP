@@ -1,0 +1,14 @@
+.flexRowContent--menu-row {
+    max-width: 1252px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.flexRow--box-social {
+  margin-top: 45px;
+}
+
+
+.flexRow--box-social .stretchChildrenWidth {
+  display: flex;
+  justify-content: flex-end;
+}

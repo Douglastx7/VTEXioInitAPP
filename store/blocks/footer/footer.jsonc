@@ -149,23 +149,111 @@
       ]
     }
   },
+
+  // )))))))))))))))))))))))))))))))))))))))) CARTÕES
+
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "accepted-payment-methods"
+      "flex-layout.col#box-background-bottom-1-footer"
     ],
     "props": {
-      "blockClass": "payment-methods"
+      "blockClass": "box-bottom-1-footer"
     }
   },
-  "accepted-payment-methods": {
+
+  "flex-layout.col#box-background-bottom-1-footer": {
+    "children": [
+      "flex-layout.col#icons-left",
+      "flex-layout.col#icons-right"
+    ],
     "props": {
-      "paymentMethods": [
-        "MasterCard",
-        "Visa",
-        "Diners Club"
-      ]
+      "blockClass": "box-background-bottom-1-footer"
     }
   },
+
+
+  "flex-layout.col#icons-left": {
+    "children": [
+      "image#logo-mastercard-bottom-1-footer",
+      "image#logo-visa-bottom-1-footer",
+      "image#logo-american-bottom-1-footer",
+      "image#logo-diner-bottom-1-footer",
+       "image#logo-elo-bottom-1-footer",
+       "image#logo-boleto_preto-bottom-1-footer"
+    ],
+    "props": {
+      "blockClass": "coluna_left"
+    }
+  },
+
+  
+  "flex-layout.col#icons-right": {
+    "children": [
+      "image#logo-vtex-certified-bottom-1-footer",
+      "image#logo-lets-encrypt-color-bottom-1-footer"
+    ],
+    "props": {
+      "blockClass": "coluna_right"
+    }
+  },
+
+  // ---  logos
+
+  "image#logo-vtex-certified-bottom-1-footer": {
+    "props": {
+      "src": "assets/imgs/logos/logo-vtex-certified.png"
+    }
+  },
+  "image#logo-lets-encrypt-color-bottom-1-footer": {
+    "props": {
+      "src": "assets/imgs/logos/lets-encrypt.png"
+    }
+  },
+
+
+
+//  -----  icons
+
+  "image#logo-mastercard-bottom-1-footer": {
+    "props": {
+      "src": "assets/icons/cartao-mastercard-icon.png"
+    }
+  },
+
+  "image#logo-visa-bottom-1-footer": {
+    "props": {
+      "src": "assets/icons/cartao-visa-icon.png"
+    }
+  },
+
+  "image#logo-american-bottom-1-footer": {
+    "props": {
+      "src": "assets/icons/cartao-american-icon.png"
+    }
+  },
+
+  "image#logo-diner-bottom-1-footer": {
+    "props": {
+      "src": "assets/icons/cartao-diner-icon.png"
+    }
+  },
+
+  "image#logo-elo-bottom-1-footer": {
+    "props": {
+      "src": "assets/icons/cartao-elo-icon.png"
+    }
+  },
+
+  "image#logo-boleto_preto-bottom-1-footer": {
+    "props": {
+      "src": "assets/icons/boleto_preto-icon.png"
+    }
+  },
+
+  // )))))))))))))))))))))))))))))))))))))))) 
+
+
+
   // ========================================
   "flex-layout.row#footer-3-desktop": {
     "children": [
@@ -205,7 +293,7 @@
       "src": "assets/imgs/logos/logo-vtex.png"
     }
   },
-  // ======================================
+  // =========================================================================
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
@@ -235,6 +323,9 @@
       "rowGap": 4
     }
   },
+
+// "flex-layout.row"
+
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
@@ -246,7 +337,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "© Copyright 2021 Avanti LTDA - Todos direitos reservados.\n Rodovia Jose Carlos Daux, 500 Techno Towers - Torre 2 - sala 209 - João \n Paulo, Florianópolis - SC, 88030-000",
       "blockClass": "footer"
     }
   }

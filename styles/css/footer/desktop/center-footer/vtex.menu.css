@@ -1,0 +1,26 @@
+
+.styledLinkContent--title_blocks_center_footer {
+   color: #25282A;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: -23px;
+}
+
+.styledLinkContent--items_blocks {
+    color: #25282A;
+    font-size: 14px;
+    margin-left: -23px;
+}
+
+.styledLinkContent--item-central-de-ajuda {
+    text-decoration: underline;
+}
+
+.styledLinkContent--2-3-blocks {
+    margin-left: -40px;
+}
+.styledLinkContent--2-3-items-blocks {
+    margin-left: -40px;
+}
