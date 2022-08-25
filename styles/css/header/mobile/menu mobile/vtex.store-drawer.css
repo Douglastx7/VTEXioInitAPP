@@ -1,0 +1,18 @@
+.menuIcon--box-menu-mobile {
+    opacity: 0;
+}
+
+.openIconContainer--box-menu-mobile {
+    position: relative;
+}
+.openIconContainer--box-menu-mobile::after {
+    content: '';
+    width: 60px;
+    height: 60px;
+    background-image: url('assets/icons/hamburguer-preto.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    left: 25px;
+    top: 25px;
+    position: absolute;
+} 

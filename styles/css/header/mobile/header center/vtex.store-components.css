@@ -1,0 +1,15 @@
+@media (max-width: 1025px) {
+   
+    .autoCompleteOuterContainer {
+        width: 371px;
+        height: 48px;
+    }
+    .searchBarIcon--search::after {
+        content: '';
+        background-color: #441AFA;
+        width: 44px;
+        height: 48px;
+        right: 0;
+        position: absolute;
+    }
+}

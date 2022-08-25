@@ -48,6 +48,12 @@
     margin-right: 160px;
 }
 
+.flexColChild--header__col-center :global(.vtex-input-prefix__group) {
+    height: 40px;
+        border-radius: 0;
+        border: none;
+}
+
 
 .flexCol--header__col-left {
     justify-content: start;

@@ -5,8 +5,20 @@
 .autoCompleteOuterContainer {
     position: relative;
     margin-right: -35px;
+    /* margin-left: 20px; */
 }
 
+@media (max-width: 1200px) {
+    .autoCompleteOuterContainer {
+        margin-left: 40px;
+    } 
+}
+@media (max-width: 1120px) {
+    .autoCompleteOuterContainer {
+        margin-left: 40px;
+        width: 400px;
+    } 
+}
 
 .searchIcon {
     opacity: 0;
@@ -16,7 +28,7 @@
     content: '';
     background-color: #441AFA;
     width: 45px;
-    height: 35px;
+    height: 40px;
     right: 0;
     position: absolute;
 }

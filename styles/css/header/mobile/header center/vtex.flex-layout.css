@@ -1,0 +1,18 @@
+.flexRowContent--main-header-mobile {
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1025px) {
+   
+    .flexRowContent--box-search :global(.vtex-store-components-3-x-autoCompleteOuterContainer) {
+        margin: 0 auto;
+       }
+       
+       .flexRowContent--box-search :global(.vtex-input-prefix__group) {
+        height: 48px;
+        border-radius: 0;
+        border: none;
+       }
+}
+

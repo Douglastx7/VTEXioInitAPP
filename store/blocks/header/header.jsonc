@@ -56,6 +56,19 @@
     }
   },
 
+  //  ----- ADD EXTERNO
+  // "store.search": {
+  //   "blocks": ["search-result-layout"]
+  // },
+  // "search-result-layout": {
+  //   "blocks": [
+  //     "search-result-layout.desktop",
+  //     "search-result-layout.mobile",
+  //     "search-not-found-layout"
+  //   ]
+  // },
+  //  ----- ____________
+
   "search-bar": {
     "props": {
       "placeholder":"O que você procura?"
@@ -101,15 +114,16 @@
   },
   "sticky-layout#mobile": {
     "children": [
-      "flex-layout.row#mobile"
+      "flex-layout.row#top-bar-mobile",
+      "flex-layout.row#mobile",
+      "flex-layout.row#mobile-search-bar"
     ]
   },
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
       "logo",
-      // "flex-layout.col#spacer",
-      "login",
+      // "login",
       "minicart.v2"
     ],
     "props": {
@@ -119,8 +133,33 @@
       "fullWidth": true
     }
   },
+
+  "flex-layout.row#mobile-search-bar": {
+    "children": [
+      "flex-layout.row#menu-mobile"
+    ],
+    "props": {
+      "blockClass": "box-search"
+    }
+  },
+
+  // ---------------- MENU MOBILE
+
+  "flex-layout.row#menu-mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "box-row-menu_mobile"
+    }
+  },
+
   "drawer": {
-    "children": []
+    "children": [],
+    "props": {
+      "blockClass":"box-menu-mobile"
+    }
+
   },
   // >>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 
