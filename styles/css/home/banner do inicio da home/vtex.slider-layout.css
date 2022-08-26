@@ -1,3 +1,21 @@
 .slideChildrenContainer {
     margin-top: 13px;
 }
+
+.paginationDotsContainer {
+    margin-bottom: 15px;
+}
+
+.paginationDot {
+    width: 8px;
+    height: 8px;
+     background-color: #25282A;
+     border: 1px solid #FFFFFF;
+     opacity: 0.24;
+}
+
+.paginationDot--isActive {
+    background-color: #25282A;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}

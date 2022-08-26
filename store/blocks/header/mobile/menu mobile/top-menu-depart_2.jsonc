@@ -1,0 +1,91 @@
+{
+  "menu-item#depart-2": {
+    "props": {
+      "id": "menu-item-departamento_002",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departamento 2",
+        "text": "Departamento 2"
+      },
+      "blockClass": [
+        "item_depart-002",
+        "depart-00x"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#categorias_do_depart-2"
+    ]
+  },
+//                                                         @@@@@@@ CHAMANDO CATEGORIAS DP-2
+  "vtex.menu@2.x:submenu#categorias_do_depart-2": {
+  "props": {
+    "orientation":"vertical",
+    "blockClass": "caixa-de-categorias_depart-2"
+  },
+  "children": [
+    "rich-text#title_depart_2",
+    "menu-item#categoria-1-depart-2",
+    "menu-item#categoria-2-depart-2"
+  ]
+},
+"rich-text#title_depart_2": {
+  "props": {
+    "text": "Departamento 2",
+    "blockClass":"title_depart_s"
+  }
+},
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS 1
+  "menu-item#categoria-1-depart-2": {
+    "props": {
+      "id": "menu-categoria_1_depart-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "categoria 1",
+        "text": "categoria 1"
+      },
+      "blockClass": [
+        "categoria_1_depart-2",
+        "categ-00x"
+      ]
+    }
+  },
+    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CATEGORIA e SUBs 
+
+
+
+   
+
+
+   // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS 2
+  "menu-item#categoria-2-depart-2": {
+    "props": {
+      "id": "menu-categoria_2_depart-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "categoria 2",
+        "text": "categoria 2"
+      },
+      "blockClass": [
+        "categoria_2_depart-2",
+        "categ-00x"
+      ]
+    }
+  }
+
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CATEGORIA e SUBs 
+}

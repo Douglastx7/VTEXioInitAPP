@@ -1,0 +1,66 @@
+{
+    "flex-layout.row#top-bar": {
+        "props": {
+            "blockClass": "wrapper__top-bar"
+        },
+        "children": [
+            "flex-layout.col#left",
+            "flex-layout.col#right"
+        ]
+    },
+    "flex-layout.col#left": {
+        "children": [
+            "rich-text#info-frete-text"
+        ],
+        "props": {
+            "blockClass": [
+                "wrapper__col",
+                "wrapper__col-left"
+            ]
+        }
+    },
+    "flex-layout.col#right": {
+        "children": [
+            "rich-text#info-revendedor-text",
+            "rich-text#info-representante-text"
+        ],
+        "props": {
+            "blockClass": [
+                "wrapper__col",
+                "wrapper__col-right"
+            ]
+        }
+    },
+    "rich-text#info-frete-text": {
+        "props": {
+            "blockClass": [
+                "text__top-bar",
+                "info-frete__top-bar",
+                "info-frete-acima"
+            ],
+            "text": "Frete Gratis acima de R$299,00 para Região Sudeste."
+        }
+    },
+    "rich-text#info-revendedor-text": {
+        "props": {
+            "blockClass": [
+                "text__top-bar",
+                "info-revendedor__top-bar",
+                "infos__top-bar"
+            ],
+            "text": "seja um revendedor"
+        }
+    },
+    "rich-text#info-representante-text": {
+        "props": {
+            "blockClass": [
+                "text__top-bar",
+                "info-representante__top-bar",
+                "infos__top-bar"
+            ],
+            "text": "seja um representante"
+        }
+    }
+
+
+}

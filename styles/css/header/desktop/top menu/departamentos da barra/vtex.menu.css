@@ -78,11 +78,27 @@
 }
 
 
-.menuItem--categoria_2_do_depart-1-da-barra--isOpen .styledLinkContent--todos_depart-da-barra {
+.menuItem--item_depart-1--isOpen .styledLinkContent--item_depart-1,
+.menuItem--item_depart-2--isOpen .styledLinkContent--item_depart-2 {
+    font-weight: bold;
+    color: #441AFA; 
+}
+
+.menuItem--categoria_1_do_depart-1-da-barra--isOpen .styledLinkContent--todos_depart-da-barra,
+.menuItem--categoria_2_do_depart-1-da-barra--isOpen .styledLinkContent--todos_depart-da-barra,
+.menuItem--categoria_3_do_depart-1-da-barra--isOpen .styledLinkContent--todos_depart-da-barra,
+.menuItem--categoria_1_do_depart-2-da-barra--isOpen .styledLinkContent--todos_depart-da-barra,
+.menuItem--categoria_2_do_depart-2-da-barra--isOpen .styledLinkContent--todos_depart-da-barra,
+.menuItem--categoria_3_do_depart-2-da-barra--isOpen .styledLinkContent--todos_depart-da-barra {
     font-weight: bold;
     color: #441AFA;
   }
-  .menuItem--categoria_2_do_depart-1-da-barra--isOpen {
+  .menuItem--categoria_1_do_depart-1-da-barra--isOpen,
+  .menuItem--categoria_2_do_depart-1-da-barra--isOpen,
+  .menuItem--categoria_3_do_depart-1-da-barra--isOpen,
+  .menuItem--categoria_1_do_depart-2-da-barra--isOpen,
+  .menuItem--categoria_2_do_depart-2-da-barra--isOpen,
+  .menuItem--categoria_3_do_depart-2-da-barra--isOpen  {
     background-color: #EEEEEE;
   }
 

@@ -1,0 +1,41 @@
+{
+      // ********************************************************************  OUTROS
+  "menu-item#novidades_mobile": {
+    "props": {
+      "id": "menu-item-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "novidades",
+        "text": "novidades"
+      },
+      "blockClass": [
+       "novidade-mobile",
+       "novidades_e_outlet_mobile"
+      ]
+    }
+  },
+  "menu-item#outlet_mobile": {
+    "props": {
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "outlet",
+        "text": "outlet"
+      },
+      "blockClass": [
+      "outlet-mobile",
+      "novidades_e_outlet_mobile"
+      ]
+    }
+  }
+}

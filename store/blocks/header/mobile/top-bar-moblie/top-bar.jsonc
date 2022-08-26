@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#top-bar-mobile": {
+        "props": {
+            "blockClass": "__top-bar-mobile"
+        },
+        "children": [
+            "rich-text#info-frete-text-mobile"
+
+        ]
+    },
+ 
+    "rich-text#info-frete-text-mobile": {
+        "props": {
+            "blockClass": [
+                "text__top-bar-mobile"
+        
+            ],
+            "text": "Frete Gratis acima de R$299,00 para Região Sudeste."
+        }
+    }
+}

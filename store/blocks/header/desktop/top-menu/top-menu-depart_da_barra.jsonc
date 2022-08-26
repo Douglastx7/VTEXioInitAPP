@@ -1,0 +1,207 @@
+{
+    //                                            DEPARTAMENTO 1 DA BARRA   +++++++++
+  "menu-item#departamento_1_da_barra": {
+    "props": {
+      "id": "menu-item-departamento_1_da_barra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departamento 1",
+        "text": "departamento 1"
+      },
+      "blockClass": [
+        "departamento_e_outros",
+        "items_top-menu",
+        "item_depart-1"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#categoria_do_departamento_1_da_barra"
+    ]
+  },
+  "vtex.menu@2.x:submenu#categoria_do_departamento_1_da_barra": {
+    "props": {
+      "blockClass": ["departamento-1-da-barra"],
+      "orientation":"vertical"
+    },
+    "children": [
+      "menu-item#categoria-1_do_departamento-1-da-barra",
+      "menu-item#categoria-2_do_departamento-1-da-barra",
+      "menu-item#categoria-3_do_departamento-1-da-barra"
+    ]
+  },
+  // >>>>>>>>>>>>> CATEGORIAS
+  "menu-item#categoria-1_do_departamento-1-da-barra": {
+    "props": {
+      "id": "menu-categoria_1_do_departamento_1_da_barra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      },
+      "blockClass": [
+        "categoria_1_do_depart-1-da-barra",
+        "todos_depart-da-barra"
+      ]
+    }
+  },
+  "menu-item#categoria-2_do_departamento-1-da-barra": {
+    "props": {
+      "id": "menu-categoria_2_do_departamento_1_da_barra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 2",
+        "text": "Categoria 2"
+      },
+      "blockClass": [
+        "categoria_2_do_depart-1-da-barra",
+        "todos_depart-da-barra"
+      ]
+    }
+  },
+  "menu-item#categoria-3_do_departamento-1-da-barra": {
+    "props": {
+      "id": "menu-categoria_3_do_departamento_1_da_barra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 3",
+        "text": "Categoria 3"
+      },
+      "blockClass": [
+        "categoria_3_do_depart-1-da-barra",
+        "todos_depart-da-barra"
+      ]
+    }
+  },
+
+
+
+//                                                DEPARTAMENTO 2 DA BARRA   +++++++++
+
+"menu-item#departamento_2_da_barra": {
+    "props": {
+      "id": "menu-item-departamento_2_da_barra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departamento 2",
+        "text": "departamento 2"
+      },
+      "blockClass": [
+        "departamento_e_outros",
+        "items_top-menu",
+        "item_depart-2"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#categoria_do_departamento_2_da_barra"
+    ]
+  },
+  "vtex.menu@2.x:submenu#categoria_do_departamento_2_da_barra": {
+    "props": {
+      "blockClass":["departamento-2-da-barra"],
+      "orientation":"vertical"
+    },
+    "children": [
+      "menu-item#categoria-1_do_departamento-2-da-barra",
+      "menu-item#categoria-2_do_departamento-2-da-barra",
+      "menu-item#categoria-3_do_departamento-2-da-barra"
+    ]
+  },
+  // >>>>>>>>>>>>> CATEGORIAS
+  "menu-item#categoria-1_do_departamento-2-da-barra": {
+    "props": {
+      "id": "menu-categoria_1_do_departamento_2_da_barra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      },
+      "blockClass": [
+        "categoria_1_do_depart-2-da-barra",
+        "todos_depart-da-barra"
+      ]
+    }
+  },
+  "menu-item#categoria-2_do_departamento-2-da-barra": {
+    "props": {
+      "id": "menu-categoria_2_do_departamento_2_da_barra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 2",
+        "text": "Categoria 2"
+      },
+      "blockClass": [
+        "categoria_2_do_depart-2-da-barra",
+        "todos_depart-da-barra"
+      ]
+    }
+  },
+  "menu-item#categoria-3_do_departamento-2-da-barra": {
+    "props": {
+      "id": "menu-categoria_3_do_departamento_2_da_barra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 3",
+        "text": "Categoria 3"
+      },
+      "blockClass": [
+        "categoria_3_do_depart-2-da-barra",
+        "todos_depart-da-barra"
+      ]
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

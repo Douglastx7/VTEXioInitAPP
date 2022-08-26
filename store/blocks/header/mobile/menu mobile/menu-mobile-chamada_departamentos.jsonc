@@ -1,0 +1,29 @@
+{
+
+// }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+
+  "vtex.menu@2.x:menu#menu-mobile": {
+    "children": [
+      "flex-layout.col#col-menu-mobile"
+    ],
+    "props": {
+      "blockClass": "box-geral-menu-mobile"
+    }
+  },
+
+  // ________________________________________
+
+
+  "flex-layout.col#col-menu-mobile": {
+    "children": [
+      "menu-item#novidades_mobile",
+      "menu-item#outlet_mobile"
+    ],
+    "props": {
+      "blockClass": "box-col_menu_mobile"
+    }
+  }
+
+// }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+
+}

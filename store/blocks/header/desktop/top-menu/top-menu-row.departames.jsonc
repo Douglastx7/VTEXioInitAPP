@@ -1,0 +1,10 @@
+{
+    "flex-layout.row#top-menu.departamento": {
+        "props": {
+            "blockClass": "row__departamento"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#top-menu.departamento" 
+        ]
+    }
+}
