@@ -1,0 +1,79 @@
+{
+    "slider-layout#banner": {
+        "children": [
+            "image#banner1",
+            "image#banner2",
+            "image#banner3"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 7000
+                // "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "never"
+        }
+    },
+    "image#banner1": {
+        "props": {
+            "src": "assets/imgs/banners/shopnow-desktop.png",     
+            "width": 1252,
+            "height": 460
+        }
+    },
+    "image#banner2": {
+        "props": {
+            "src": "assets/imgs/banners/shopnow-desktop.png",
+             "width": 1252,     
+            "height": 460
+        }
+    },
+    "image#banner3": {
+        "props": {
+            "src": "assets/imgs/banners/shopnow-desktop.png",
+            "width": 1252,    
+            "height": 460
+        }
+    }
+    // "responsive-layout.desktop#home": {
+    //     "children": [
+    //         "slider-layout#banner"
+    //     ]
+    // },
+    // "slider-layout#image-banner": {
+    //     "children": ["slider-layout#banner-props"],
+    //     "props": {
+    //       "height": 764,
+    //       "preload": true,
+    //       "images": [
+    //         {
+    //           "image": "assets/imgs/banners/shopnow-mobile.png",
+    //           "mobileImage": ""
+    //         },
+    //         {
+    //           "image": "assets/imgs/banners/shopnow-mobile.png",
+    //           "mobileImage": ""
+    //         }
+    //       ]
+    //     }
+    //   },
+    //   "slider-layout#banner-props": {
+    //     "props": {
+    //       "itemsPerPage": {
+    //         "desktop": 1,
+    //         "tablet": 1,
+    //         "phone": 1
+    //       },
+    //       "infinite": true,
+    //     //   "showNavigationArrows": "desktopOnly",
+    //     //   "blockClass": "carousel",
+    //       "showPaginationDots": true
+    //     //   "showNavigationArrows": "never"
+    //     }
+    //   }
+}

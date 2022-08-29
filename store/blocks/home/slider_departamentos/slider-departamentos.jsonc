@@ -1,0 +1,173 @@
+{
+    "rich-text#todos-os-departamentos-title-text": {
+        "props": {
+            "blockClass": [
+                "todos-os-departamento-title"
+            ],
+            "text": "todos os departamentos"
+        }
+    },
+    "slider-layout#home": {
+        "children": [
+
+            "flex-layout.col#dp-1",
+    
+
+         
+
+            "image#departamento2",
+            "image#departamento3",
+            "image#departamento4",
+            "image#departamento5",
+            "image#departamento6",
+            "image#departamento7",
+            "image#departamento8",
+            "image#departamento9",
+            "image#departamento10",
+            "image#departamento11",
+            "image#departamento12",
+            "image#departamento13",
+            "image#departamento14",
+            "image#departamento15",
+            "image#departamento16"
+        ],
+        "props": {
+            "itemsPerPage": {
+                        "desktop": 8,
+                        "tablet": 1,
+                        "phone": 1
+                      },
+            "blockClass": "slider-container",
+            "showPaginationDots": "never"
+        }
+    },
+
+
+   "flex-layout.col#dp-1": {
+    "children": [
+        "image#departamento1",
+        "rich-text#dp-1"
+    ],
+    "props": {
+        // "blockClass":["box-row_para_cosl"]
+    }
+   },
+
+//    "flex-layout.col#dp-1": {
+//     "children": [
+//         "image#departamento1",
+//         "rich-text#dp-1"
+//     ]
+// },
+  
+
+
+    "image#departamento1": {
+        "props": {
+            "src": "assets/imgs/products/clothes.png",
+            "maxHeight": 80
+        }
+    },
+
+    "rich-text#dp-1": {
+        "props": {
+            "text": "departamento 1"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "image#departamento2": {
+        "props": {
+            "src": "assets/imgs/products/smartwatch.png"
+        }
+    },
+    "image#departamento3": {
+        "props": {
+            "src": "assets/imgs/products/jackets.png"
+            
+        }
+    },
+    "image#departamento4": {
+        "props": {
+            "src": "assets/imgs/products/glasses.png"
+        }
+    },
+    "image#departamento5": {
+        "props": {
+            "src": "assets/imgs/products/hoodies.png"
+        }
+    },
+    "image#departamento6": {
+        "props": {
+            "src": "assets/imgs/products/games.png"
+        }
+    },
+    "image#departamento7": {
+        "props": {
+            "src": "assets/imgs/products/masks.png"
+        }
+    },
+    "image#departamento8": {
+        "props": {
+            "src": "assets/imgs/products/electronics.png"
+        }
+    },
+
+    "image#departamento9": {
+        "props": {
+            "src": "assets/imgs/products/clothes.png"
+        }
+    },
+    "image#departamento10": {
+        "props": {
+            "src": "assets/imgs/products/smartwatch.png"
+        }
+    },
+    "image#departamento11": {
+        "props": {
+            "src": "assets/imgs/products/jackets.png"
+            
+        }
+    },
+    "image#departamento12": {
+        "props": {
+            "src": "assets/imgs/products/glasses.png"
+        }
+    },
+    "image#departamento13": {
+        "props": {
+            "src": "assets/imgs/products/hoodies.png"
+        }
+    },
+    "image#departamento14": {
+        "props": {
+            "src": "assets/imgs/products/games.png"
+        }
+    },
+    "image#departamento15": {
+        "props": {
+            "src": "assets/imgs/products/masks.png"
+        }
+    },
+    "image#departamento16": {
+        "props": {
+            "src": "assets/imgs/products/electronics.png"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.flexRow--box-about {
+    background-color: #f6f6f6;
+    max-width: 1920px;
+    margin: 60px auto;
+    border: solid 1px #ebebeb;
+}
+
+
+.flexColChild--box-col-about {
+    margin-left: -130px;
+}
+
+
+

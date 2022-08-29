@@ -1,0 +1,51 @@
+
+.heading--title-h1 {
+  color: #441AFA;
+  font-size: 40px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 70px;
+  margin-left: 27px;
+}
+
+.heading--title-h1::before {
+    content: '<h1>';
+    font-size: 7px;
+    left: -27px;
+    bottom: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    position: absolute;
+}
+
+.wrapper--sobre-h2 {
+    width: 474px;
+    color: #B1B3B3; 
+    font-size: 12px;
+}
+
+
+.wrapper--button-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    width: 251px;
+    height: 48px;
+  margin-top: -30px;
+    border: solid 1px #000000;
+    cursor: pointer;
+    position: relative;
+}
+
+.wrapper--button-about::after {
+    content: '→';
+    font-size: 20px;
+    position:absolute;
+    right: 50px;
+    bottom: 15px;
+}

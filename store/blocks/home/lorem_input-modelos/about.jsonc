@@ -1,0 +1,61 @@
+{
+
+    "flex-layout.row#about":{
+        "children": [
+            "image#modelos",
+            "flex-layout.col#info"
+        ],
+        "props": {
+            "blockClass":"box-about"
+        }
+      },
+
+    
+      "image#modelos": {
+        "props": {
+          "src": "assets/imgs/banners/people-desktop.png",
+          "blockClass": "imagem-modelo"
+        }
+      },
+  
+
+      "flex-layout.col#info": {
+        "children": [
+            "rich-text#title-h1",
+            "rich-text#sobre-h2",
+            "rich-text#button"
+            // "info-card#button"
+        ],
+        "props": {
+            "blockClass":"box-col-about"
+        }
+      },
+
+      "rich-text#title-h1": {
+        "props": {
+          "text": "# lorem ipsum",
+          "blockClass":"title-h1"
+        }
+    },
+    "rich-text#sobre-h2": {
+        "props": {
+          "text": "<h2> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy\n eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam\n voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd\n  gubergren, no sea takimata sanctus est Lorem ipsum\n  dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor\n  invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et\n  accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea.",
+          "blockClass":"sobre-h2"
+
+        }
+    },
+    // "info-card#button": {
+    //     "props": {
+    //       "isFullModeStyle": true,
+    //       "callToActionText": "LOREM IPSUM",
+    //       "blockClass":"button-about"
+    //     }
+    //   }
+
+    "rich-text#button": {
+        "props": {
+            "text": "LOREM IPSUM",
+          "blockClass":"button-about"
+        }
+      }
+}

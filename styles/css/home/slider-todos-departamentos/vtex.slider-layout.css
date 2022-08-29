@@ -3,3 +3,8 @@
      max-width: 1252px;
      margin: 0 auto;
 }
+
+.caretIcon--slider-container {
+     margin-top: 18px;
+     color: #B1B3B3;
+}

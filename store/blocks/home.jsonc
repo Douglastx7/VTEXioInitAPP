@@ -4,7 +4,8 @@
       "slider-layout#banner",
       "flex-layout.row#informacao-home",
       "rich-text#todos-os-departamentos-title-text",
-       "slider-layout#home"
+       "slider-layout#home",
+       "flex-layout.row#about"
     ]
   }
 }

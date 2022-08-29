@@ -1,0 +1,139 @@
+{
+ 
+    //----->>>>>>>>>>>>>>> COLUNA PRINCIPAL
+    "flex-layout.row#informacao-home": {
+        "children": [
+            "flex-layout.col#coluna1",
+            "flex-layout.col#coluna2"
+        ],
+        "props": {
+            "blockClass": "informacao-row__home"
+        }
+    },
+    
+//----->>>>>>>>>  COLUNA 1
+    "flex-layout.col#coluna1": {
+        "children": [
+            "flex-layout.col#info-frete_home",
+            "flex-layout.col#info-primeira-troca_home"
+        ],
+        "props": {
+            "blockClass": [
+                "sub_coluna",
+                "coluna_1"
+            ]
+        }
+    },
+//----->>>>>>>>>  COLUNA 2
+    "flex-layout.col#coluna2": {
+        "children": [
+            "flex-layout.col#info-ate-12x_home",
+            "flex-layout.col#encontre-um-parceiro_home"
+        ],
+        "props": {
+            "blockClass": [
+                "sub_coluna",
+                "coluna_1"
+            ]
+        }
+    },
+
+
+    //----------------------------------------- >>>>>>>>>>>>>>> FRETE GRATIS
+    "flex-layout.col#info-frete_home": {
+        "children": [
+            "rich-text#frete-gratis-txt1",
+            "rich-text#frete-gratis-txt2"
+        ],
+        "props": {
+            "blockClass": [
+                "wrapper__col-info-home"
+            ]
+        }
+    },
+    "rich-text#frete-gratis-txt1": {
+        "props": {
+            "text": "frete grátis",
+            "blockClass": ["txt1","icon-frete"]
+        }
+       
+    },
+    "rich-text#frete-gratis-txt2": {
+        "props": {
+            "text": "acima de R$299",
+            "blockClass": ["txt2"]
+        }
+    },
+    // ----------------------------------------- >>>>>>>>>>>>>>> PRIMEIRA TROCA
+    "flex-layout.col#info-primeira-troca_home": {
+        "props": {
+            "blockClass": [
+                "wrapper__col-info-home"
+            ]
+        },
+        "children": [
+            "rich-text#primeira-troca-txt1",
+            "rich-text#primeira-troca-txt2"
+        ]
+    },
+    "rich-text#primeira-troca-txt1": {
+        "props": {
+            "text": "primeira troca",
+            "blockClass": ["txt1","icon-primeira-troca"]
+        }
+    },
+    "rich-text#primeira-troca-txt2": {
+        "props": {
+            "text": "grátis",
+            "blockClass": ["txt2"]
+        }
+    },
+    //-----------------------------------------  >>>>>>>>>>>>>>> ATE - 12X
+    "flex-layout.col#info-ate-12x_home": {
+        "props": {
+            "blockClass": [
+                "wrapper__col-info-home"
+            ]
+        },
+        "children": [
+            "rich-text#ate-12x-txt1",
+            "rich-text#ate-12x-txt2"
+        ]
+    },
+    "rich-text#ate-12x-txt1": {
+        "props": {
+            "text": "até 12x sem juros",
+            "blockClass": ["txt1","icon-ate-12x"]
+        }
+    },
+    "rich-text#ate-12x-txt2": {
+        "props": {
+            "text": "nos cartões",
+            "blockClass": ["txt2"]
+        }
+    },
+    //-----------------------------------------  >>>>>>>>>>>>>>> ENCONTRE UM PARCEIRO
+    "flex-layout.col#encontre-um-parceiro_home": {
+        "props": {
+            "blockClass": [
+                "wrapper__col-info-home"
+            ]
+        },
+        "children": [
+            "rich-text#encontre-um-parceiro-txt1",
+            "rich-text#encontre-um-parceiro-txt2"
+        ]
+    },
+    "rich-text#encontre-um-parceiro-txt1": {
+        "props": {
+            "text": "encontre um",
+            "blockClass": ["txt1","icon-encontre-parce"]
+        }
+    },
+    "rich-text#encontre-um-parceiro-txt2": {
+        "props": {
+            "text": "parceiro vollo",
+            "blockClass": ["txt2"]
+        }
+    }
+}

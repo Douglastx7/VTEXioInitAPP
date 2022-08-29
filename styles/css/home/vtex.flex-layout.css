@@ -17,3 +17,20 @@
     justify-content: space-around;
     margin-top: 15px;
 }
+
+
+.flexRow--box-row_para_col .flexColChild {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+/* .flexRow--box-row_para_col {
+    background-color: blue;
+   } */
+
+
+/* 
+   .flexRow--box-row_para_col :global(.container) { 
+    background-color: aqua;
+   } */
