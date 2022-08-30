@@ -1,0 +1,15 @@
+.flexRow--box-container_geral_banner_products {
+    max-width: 1252px;
+    margin: 80px auto;
+}
+
+
+
+.flexRow--box-container_geral_banner_products :global(.vtex-store-components-3-x-container ) {
+    background-color: #FFFFFF;
+}
+
+.flexRowContent--box-rows {
+    background-color: #FFFFFF;
+    
+}

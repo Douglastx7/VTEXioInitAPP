@@ -9,165 +9,575 @@
     },
     "slider-layout#home": {
         "children": [
-
-            "flex-layout.col#dp-1",
-    
-
-         
-
-            "image#departamento2",
-            "image#departamento3",
-            "image#departamento4",
-            "image#departamento5",
-            "image#departamento6",
-            "image#departamento7",
-            "image#departamento8",
-            "image#departamento9",
-            "image#departamento10",
-            "image#departamento11",
-            "image#departamento12",
-            "image#departamento13",
-            "image#departamento14",
-            "image#departamento15",
-            "image#departamento16"
+            "flex-layout.row#dp-1",
+            "flex-layout.row#dp-2",
+            "flex-layout.row#dp-3",
+            "flex-layout.row#dp-4",
+            "flex-layout.row#dp-5",
+            "flex-layout.row#dp-6",
+            "flex-layout.row#dp-7",
+            "flex-layout.row#dp-8",
+            "flex-layout.row#dp-9",
+            "flex-layout.row#dp-10",
+            "flex-layout.row#dp-11",
+            "flex-layout.row#dp-12",
+            "flex-layout.row#dp-13",
+            "flex-layout.row#dp-14",
+            "flex-layout.row#dp-15",
+            "flex-layout.row#dp-16"
         ],
         "props": {
             "itemsPerPage": {
-                        "desktop": 8,
-                        "tablet": 1,
-                        "phone": 1
-                      },
+                "desktop": 8,
+                "tablet": 1,
+                "phone": 1
+            },
             "blockClass": "slider-container",
             "showPaginationDots": "never"
         }
     },
-
-
-   "flex-layout.col#dp-1": {
-    "children": [
-        "image#departamento1",
-        "rich-text#dp-1"
-    ],
-    "props": {
-        // "blockClass":["box-row_para_cosl"]
-    }
-   },
-
-//    "flex-layout.col#dp-1": {
-//     "children": [
-//         "image#departamento1",
-//         "rich-text#dp-1"
-//     ]
-// },
-  
-
-
+    "flex-layout.row#dp-1": {
+        "children": [
+            "flex-layout.col#dp-1"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-1": {
+        "children": [
+            "image#departamento1",
+            "rich-text#dp-1"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento1": {
         "props": {
             "src": "assets/imgs/products/clothes.png",
             "maxHeight": 80
         }
     },
-
     "rich-text#dp-1": {
         "props": {
-            "text": "departamento 1"
+            "text": "departamento 1",
+            "blockClass": "text-geral"
         }
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    "flex-layout.row#dp-2": {
+        "children": [
+            "flex-layout.col#dp-2"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-2": {
+        "children": [
+            "image#departamento2",
+            "rich-text#dp-2"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento2": {
         "props": {
-            "src": "assets/imgs/products/smartwatch.png"
+            "src": "assets/imgs/products/smartwatch.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-2": {
+        "props": {
+            "text": "departamento 2",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-3": {
+        "children": [
+            "flex-layout.col#dp-3"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-3": {
+        "children": [
+            "image#departamento3",
+            "rich-text#dp-3"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento3": {
         "props": {
-            "src": "assets/imgs/products/jackets.png"
-            
+            "src": "assets/imgs/products/jackets.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-3": {
+        "props": {
+            "text": "departamento 3",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-4": {
+        "children": [
+            "flex-layout.col#dp-4"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-4": {
+        "children": [
+            "image#departamento4",
+            "rich-text#dp-4"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento4": {
         "props": {
-            "src": "assets/imgs/products/glasses.png"
+            "src": "assets/imgs/products/glasses.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-4": {
+        "props": {
+            "text": "departamento 4",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-5": {
+        "children": [
+            "flex-layout.col#dp-5"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-5": {
+        "children": [
+            "image#departamento5",
+            "rich-text#dp-5"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento5": {
         "props": {
-            "src": "assets/imgs/products/hoodies.png"
+            "src": "assets/imgs/products/hoodies.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-5": {
+        "props": {
+            "text": "departamento 5",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-6": {
+        "children": [
+            "flex-layout.col#dp-6"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-6": {
+        "children": [
+            "image#departamento6",
+            "rich-text#dp-6"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento6": {
         "props": {
-            "src": "assets/imgs/products/games.png"
+            "src": "assets/imgs/products/games.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-6": {
+        "props": {
+            "text": "departamento 6",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-7": {
+        "children": [
+            "flex-layout.col#dp-7"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-7": {
+        "children": [
+            "image#departamento7",
+            "rich-text#dp-7"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento7": {
         "props": {
-            "src": "assets/imgs/products/masks.png"
+            "src": "assets/imgs/products/masks.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-7": {
+        "props": {
+            "text": "departamento 7",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-8": {
+        "children": [
+            "flex-layout.col#dp-8"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-8": {
+        "children": [
+            "image#departamento8",
+            "rich-text#dp-8"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento8": {
         "props": {
-            "src": "assets/imgs/products/electronics.png"
+            "src": "assets/imgs/products/electronics.png",
+            "maxHeight": 80
         }
     },
-
+    "rich-text#dp-8": {
+        "props": {
+            "text": "departamento 8",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-9": {
+        "children": [
+            "flex-layout.col#dp-9"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-9": {
+        "children": [
+            "image#departamento9",
+            "rich-text#dp-9"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento9": {
         "props": {
-            "src": "assets/imgs/products/clothes.png"
+            "src": "assets/imgs/products/clothes.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-9": {
+        "props": {
+            "text": "departamento 9",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-10": {
+        "children": [
+            "flex-layout.col#dp-10"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-10": {
+        "children": [
+            "image#departamento10",
+            "rich-text#dp-10"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento10": {
         "props": {
-            "src": "assets/imgs/products/smartwatch.png"
+            "src": "assets/imgs/products/smartwatch.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-10": {
+        "props": {
+            "text": "departamento 10",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-11": {
+        "children": [
+            "flex-layout.col#dp-11"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-11": {
+        "children": [
+            "image#departamento11",
+            "rich-text#dp-11"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento11": {
         "props": {
-            "src": "assets/imgs/products/jackets.png"
-            
+            "src": "assets/imgs/products/jackets.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-11": {
+        "props": {
+            "text": "departamento 11",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-12": {
+        "children": [
+            "flex-layout.col#dp-12"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-12": {
+        "children": [
+            "image#departamento12",
+            "rich-text#dp-12"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento12": {
         "props": {
-            "src": "assets/imgs/products/glasses.png"
+            "src": "assets/imgs/products/glasses.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-12": {
+        "props": {
+            "text": "departamento 12",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-13": {
+        "children": [
+            "flex-layout.col#dp-13"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-13": {
+        "children": [
+            "image#departamento13",
+            "rich-text#dp-13"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento13": {
         "props": {
-            "src": "assets/imgs/products/hoodies.png"
+            "src": "assets/imgs/products/hoodies.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-13": {
+        "props": {
+            "text": "departamento 13",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-14": {
+        "children": [
+            "flex-layout.col#dp-14"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-14": {
+        "children": [
+            "image#departamento14",
+            "rich-text#dp-14"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento14": {
         "props": {
-            "src": "assets/imgs/products/games.png"
+            "src": "assets/imgs/products/games.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-14": {
+        "props": {
+            "text": "departamento 14",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-15": {
+        "children": [
+            "flex-layout.col#dp-15"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-15": {
+        "children": [
+            "image#departamento15",
+            "rich-text#dp-15"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento15": {
         "props": {
-            "src": "assets/imgs/products/masks.png"
+            "src": "assets/imgs/products/masks.png",
+            "maxHeight": 80
         }
     },
+    "rich-text#dp-15": {
+        "props": {
+            "text": "departamento 15",
+            "blockClass": "text-geral"
+        }
+    },
+    "flex-layout.row#dp-16": {
+        "children": [
+            "flex-layout.col#dp-16"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    "flex-layout.col#dp-16": {
+        "children": [
+            "image#departamento16",
+            "rich-text#dp-16"
+        ],
+        "props": {
+            "blockClass": [
+                "box-row_para_col"
+            ]
+        }
+    },
+    // ---------------------------
     "image#departamento16": {
         "props": {
-            "src": "assets/imgs/products/electronics.png"
+            "src": "assets/imgs/products/electronics.png",
+            "maxHeight": 80
+        }
+    },
+    "rich-text#dp-16": {
+        "props": {
+            "text": "departamento 16",
+            "blockClass": "text-geral"
         }
     }
 }

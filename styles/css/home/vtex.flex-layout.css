@@ -25,12 +25,9 @@
     background-color: #FFFFFF;
 }
 
-/* .flexRow--box-row_para_col {
-    background-color: blue;
-   } */
+
+   .flexRow--box-row_para_col :global(.vtex-store-components-3-x-container) { 
+    background-color: #FFFFFF;
+   }
 
 
-/* 
-   .flexRow--box-row_para_col :global(.container) { 
-    background-color: aqua;
-   } */

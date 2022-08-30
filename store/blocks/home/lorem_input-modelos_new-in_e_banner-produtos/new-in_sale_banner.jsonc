@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#new_in-sale": {
+        "children": [
+            "flex-layout.col#new_in",
+            "flex-layout.col#sale"
+        ],
+        "props": {
+            "blockClass": "box-geral-banners"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    "flex-layout.col#new_in": {
+        "children": [
+            "image#new-in__"
+        ],
+        "props": {
+            "blockClass": "box-col-banners_new-in"
+        }
+    },
+
+    "image#new-in__": {
+        "props": {
+            "src": "assets/imgs/banners/banner-newin.png",
+            "height": 559,
+            "width": 616,
+            "blockClass": "box-banner-img_newin"
+        }
+    },
+
+
+    "flex-layout.col#sale": {
+        "children": [
+            "image#sale__"
+        ],
+        "props": {
+            "blockClass": "box-col-banners_sale"
+        }
+    },
+
+
+    "image#sale__": {
+        "props": {
+            "src":  "assets/imgs/banners/banner-sale.png",
+            "height": 559,
+            "width": 616,
+            "blockClass": "box-banner-img_sale"
+        }
+    }
+}
+

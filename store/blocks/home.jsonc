@@ -5,7 +5,10 @@
       "flex-layout.row#informacao-home",
       "rich-text#todos-os-departamentos-title-text",
        "slider-layout#home",
-       "flex-layout.row#about"
+       "flex-layout.row#about",
+       "flex-layout.row#new_in-sale",
+       "flex-layout.row#container-geral",
+       "list-context.product-list#demo1"
     ]
   }
 }

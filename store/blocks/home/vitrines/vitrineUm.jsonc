@@ -1,0 +1,58 @@
+{
+  "product-summary.shelf#demo1": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+
+
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf#demo1"
+    ],
+    "children": [
+      "rich-text#title_vitrine_1",
+      "flex-layout.row#box_geral_vitrine"
+    ],
+    "props": {
+      "blockClass": "box-list-context_product_vitrine"
+    }
+  },
+
+
+  "flex-layout.row#box_geral_vitrine": {
+    "children": [
+      "slider-layout#banner_vitrine_1"
+    ],
+    "props": {
+      "blockClass": "box_geral_vitrine"
+    }
+  },
+
+  "rich-text#title_vitrine_1": {
+    "props": {
+      "text": "vitrine 1",
+      "blockClass": "title_vitrine_1"
+    }
+  },
+
+
+  "slider-layout#banner_vitrine_1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "blockClass": "box-slider_vitrine_1",
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+    }
+  }
+}

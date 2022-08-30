@@ -40,40 +40,5 @@
             "height": 460
         }
     }
-    // "responsive-layout.desktop#home": {
-    //     "children": [
-    //         "slider-layout#banner"
-    //     ]
-    // },
-    // "slider-layout#image-banner": {
-    //     "children": ["slider-layout#banner-props"],
-    //     "props": {
-    //       "height": 764,
-    //       "preload": true,
-    //       "images": [
-    //         {
-    //           "image": "assets/imgs/banners/shopnow-mobile.png",
-    //           "mobileImage": ""
-    //         },
-    //         {
-    //           "image": "assets/imgs/banners/shopnow-mobile.png",
-    //           "mobileImage": ""
-    //         }
-    //       ]
-    //     }
-    //   },
-    //   "slider-layout#banner-props": {
-    //     "props": {
-    //       "itemsPerPage": {
-    //         "desktop": 1,
-    //         "tablet": 1,
-    //         "phone": 1
-    //       },
-    //       "infinite": true,
-    //     //   "showNavigationArrows": "desktopOnly",
-    //     //   "blockClass": "carousel",
-    //       "showPaginationDots": true
-    //     //   "showNavigationArrows": "never"
-    //     }
-    //   }
+
 }

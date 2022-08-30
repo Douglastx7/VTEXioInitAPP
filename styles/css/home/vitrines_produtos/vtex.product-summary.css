@@ -1,0 +1,11 @@
+ .element{
+   position: relative; 
+}
+.element::after {
+content: 'NOVIDADE';
+background-color: #441AFA;
+color: white;
+padding: 10px;
+top: 5px;
+position: absolute;
+}

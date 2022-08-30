@@ -1,0 +1,19 @@
+
+
+
+.flexRow--box-geral-banners {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+
+.flexColChild--box-col-banners_new-in {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.flexColChild--box-col-banners_sale {
+ margin-left: 10px;
+
+}

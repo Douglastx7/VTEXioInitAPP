@@ -1,0 +1,10 @@
+.wrapper--title_de_banner_products {
+     margin: 0 auto;
+}
+
+.paragraph--title_de_banner_products {
+    color: #25282A;
+  font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
