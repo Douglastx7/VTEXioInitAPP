@@ -1,0 +1,33 @@
+.sellingPriceValue {
+    color: #441AFA;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.installmentsPrice {
+    display: flex;
+    justify-content: flex-start;
+    color: #25282A;
+    font-size: 12px;
+}
+
+
+
+
+.sellingPriceContainer {
+    display: flex;
+   justify-content: flex-start;
+   margin: 0;
+}
+
+.productPriceClass {
+    position: relative;
+}
+
+.discountInsideContainer {
+    background-color: #25282A;
+    position: absolute;
+    top: 410px;
+    right: 65px;
+    
+}

@@ -1,0 +1,42 @@
+.quantitySelectorTitle {
+    display: none;
+}
+
+
+.quantitySelectorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button) {
+    width: 20px;
+    height: 40px;
+    border: none;
+    border-top: solid 1px #E6E6E6;
+    border-bottom: solid 1px #E6E6E6;
+    border-right: solid 1px #E6E6E6;
+}
+
+
+
+.quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button__text),
+.quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button__text) {
+    color: #bdbdbd;;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button) {
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 40px;
+    border: none;
+    border-top: solid 1px #E6E6E6;
+    border-bottom: solid 1px #E6E6E6;
+    border-left: solid 1px #E6E6E6;
+}
+
+

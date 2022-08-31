@@ -1,11 +1,51 @@
  .element{
    position: relative; 
+
 }
 .element::after {
-content: 'NOVIDADE';
+content: 'novidade';
 background-color: #441AFA;
+font-size: 10px;
 color: white;
-padding: 10px;
+padding: 7px;
 top: 5px;
 position: absolute;
+letter-spacing: 1px;
+text-transform: uppercase;
+z-index: 100;
+}
+
+.element::before {
+  content: 'inovação';
+  background-color: #25282A;
+  font-size: 10px;
+  color: white;
+  padding: 7px;
+  top: 40px;
+  position: absolute;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  z-index: 100;
+  }
+
+
+  .brandName {
+    color: #25282A;
+    text-transform: uppercase;
+  }
+
+  .nameContainer {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .priceContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 140px;
+  }
+
+.listPriceContainer {
+  display: flex;
+  justify-content: flex-start;
 }

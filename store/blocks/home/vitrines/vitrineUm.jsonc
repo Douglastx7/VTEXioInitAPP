@@ -6,10 +6,27 @@
       "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
-      "product-summary-buy-button"
+      "flex-layout.row#box_quantity_button"
     ]
   },
 
+"flex-layout.row#box_quantity_button": {
+"children": [
+  "product-quantity",
+  "product-summary-buy-button"
+],
+"props": {
+  "blockClass": "box_quantity_button"
+}
+},
+
+
+
+"product-summary-buy-button": {
+  "props": {
+    "buyButtonText": "comprar"
+  }
+},
 
 
   "list-context.product-list#demo1": {
@@ -53,6 +70,7 @@
       "blockClass": "box-slider_vitrine_1",
       "infinite": true,
       "showNavigationArrows": "desktopOnly"
+      // "showPaginationDots": "desktopOnly"
     }
   }
 }

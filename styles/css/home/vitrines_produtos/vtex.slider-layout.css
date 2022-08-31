@@ -1,0 +1,26 @@
+.caretIcon--box-slider_vitrine_1{
+    opacity: 0;
+  }
+
+  .sliderRightArrow--box-slider_vitrine_1::after {
+    background-color: #25282A;
+    color: white;
+    content: '→';
+    padding: 12px;
+    position: absolute;
+    z-index: 10000;
+  }
+
+
+  .sliderLeftArrow--box-slider_vitrine_1::after {
+    background-color: #25282A;
+    color: white;
+    content: '←';
+    padding: 12px;
+    position: absolute;
+    z-index: 10000;
+  }
+
+  .paginationDotsContainer--box-slider_vitrine_1 {
+    margin: 0;
+  }
