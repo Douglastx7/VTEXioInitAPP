@@ -49,3 +49,20 @@ z-index: 100;
   display: flex;
   justify-content: flex-start;
 }
+
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapper::after {
+ content: '';
+ background-image: url('assets/icons/blueHeart.svg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ top: 0;
+ right:0px;
+ width: 20px;
+ height: 19px;
+ z-index: 9999;
+ position: absolute;
+}

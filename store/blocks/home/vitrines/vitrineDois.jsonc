@@ -1,5 +1,5 @@
 {
-  "product-summary.shelf#demo1": {
+  "product-summary.shelf#demo2": {
     "children": [
       "product-summary-image",
       "product-summary-name",
@@ -34,12 +34,12 @@
 },
 
 
-  "list-context.product-list#demo1": {
+  "list-context.product-list#demo2": {
     "blocks": [
-      "product-summary.shelf#demo1"
+      "product-summary.shelf#demo2"
     ],
     "children": [
-      "rich-text#title_vitrine_1",
+      "rich-text#title_vitrine_2",
       "flex-layout.row#box_geral_vitrine"
     ],
     "props": {
@@ -57,9 +57,9 @@
     }
   },
 
-  "rich-text#title_vitrine_1": {
+  "rich-text#title_vitrine_2": {
     "props": {
-      "text": "vitrine 1",
+      "text": "vitrine 2",
       "blockClass": "title_vitrine_1"
     }
   },

@@ -8,7 +8,9 @@
        "flex-layout.row#about",
        "flex-layout.row#new_in-sale",
        "flex-layout.row#container-geral",
-       "list-context.product-list#demo1"
+       "list-context.product-list#demo1",
+       "flex-layout.row#banner_do_final",
+       "list-context.product-list#demo2"
     ]
   }
 }

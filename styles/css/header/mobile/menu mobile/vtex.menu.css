@@ -7,3 +7,43 @@
     background-color: #FFFFFF;
     border-bottom: solid 1px #EEEEEE;
 }
+
+
+.styledLinkContent--novidade-mobile {
+    color: #25282A;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.styledLinkContent--outlet-mobile {
+    color: #441AFA;;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+/* ===================================================   OUTROS */
+
+
+.menuItem--minha-conta_e_atendimento {
+    background-color: #FFFFFF;
+}
+
+/* .styledLinkContainer--minha-conta_e_atendimento {
+ padding-top: 10px;
+} */
+
+.styledLinkContent--minha-conta_e_atendimento { 
+    color: #441AFA;
+    font-size: 14px;
+    font-weight: bold;
+
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+
+

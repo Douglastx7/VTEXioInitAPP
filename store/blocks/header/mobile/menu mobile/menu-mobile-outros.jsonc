@@ -1,0 +1,123 @@
+{
+
+
+    "flex-layout.col#box-menu-mobile-outros": {
+        "children": [
+            "menu-item#minha-conta-menu-mobile",
+            "menu-item#atendimento-menu-mobile",
+
+            "menu-item#loja-parceiras-menu-mobile",
+            "menu-item#seja-representante-menu-mobile",
+            "menu-item#seja-revendedor-menu-mobile"
+        ]
+    },
+    // _________
+     
+
+    "menu-item#minha-conta-menu-mobile": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "minha conta",
+            "text": "minha conta"
+          },
+          "blockClass": [
+          "minha-conta_e_atendimento"
+          ]
+        }
+      },
+
+
+      "menu-item#atendimento-menu-mobile": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "atendimento  ao cliente",
+            "text": "atendimento  ao cliente"
+          },
+          "blockClass": [
+            "minha-conta_e_atendimento"
+          ]
+        }
+      },
+
+
+// ________________
+
+
+    "menu-item#loja-parceiras-menu-mobile": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "lojas parceiras",
+            "text": "lojas parceiras"
+          },
+          "blockClass": [
+          ""
+          ]
+        }
+      },
+
+
+
+
+    "menu-item#seja-representante-menu-mobile": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "seja um representante",
+            "text": "seja um representante"
+          },
+          "blockClass": [
+          ""
+          ]
+        }
+      },
+
+
+
+    "menu-item#seja-revendedor-menu-mobile": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "seja um revendedor",
+            "text": "seja um revendedor"
+          },
+          "blockClass": [
+          ""
+          ]
+        }
+      }
+
+
+}

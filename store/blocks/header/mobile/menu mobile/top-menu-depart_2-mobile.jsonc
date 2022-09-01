@@ -1,0 +1,95 @@
+{
+  "menu-item#depart-2-mobile": {
+    "props": {
+      "id": "menu-item-departamento_002",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departamento 2",
+        "text": "Departamento 2"
+      },
+      "blockClass": [
+      ""
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#categorias_do_depart-2"
+    ]
+  },
+//                                                         @@@@@@@ CHAMANDO CATEGORIAS DP-2
+  "vtex.menu@2.x:submenu.accordion#categorias_do_depart-2": {
+  "props": {
+    "orientation":"vertical",
+    "blockClass": ""
+  },
+  "children": [
+    "flex-layout.col#box-departamento__2"
+  ]
+},
+
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Departamento 2
+
+"flex-layout.col#box-departamento__2": {
+  "children": [
+    "menu-item#categoria-1-depart-2_mobile",
+    "menu-item#categoria-2-depart-2_mobile"
+  ]
+},
+
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS 1
+  "menu-item#categoria-1-depart-2_mobile": {
+    "props": {
+      "id": "menu-categoria_1_depart-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "categoria 1",
+        "text": "categoria 1"
+      },
+      "blockClass": [
+      ""
+      ]
+    }
+  },
+    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CATEGORIA e SUBs 
+
+
+
+   
+
+
+   // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS 2
+  "menu-item#categoria-2-depart-2_mobile": {
+    "props": {
+      "id": "menu-categoria_2_depart-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "categoria 2",
+        "text": "categoria 2"
+      },
+      "blockClass": [
+      ""
+      ]
+    }
+  }
+
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CATEGORIA e SUBs 
+}

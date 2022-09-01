@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#banner_do_final": {
+        "children": [
+            "image#banner-final"
+        ],
+        "props": {
+            "blockClass": "box-banner-final"
+        }
+    },
+
+    "image#banner-final": {
+        "props": {
+            "src": "assets/imgs/banners/banner-frete-desktop.png",
+            "width": 1252,
+            "height": 421,
+            "blockClass": "img-banner-final"
+        }
+    }
+}

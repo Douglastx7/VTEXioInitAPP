@@ -17,7 +17,10 @@
   "flex-layout.col#col-menu-mobile": {
     "children": [
       "menu-item#novidades_mobile",
-      "menu-item#outlet_mobile"
+      "menu-item#outlet_mobile",
+      "menu-item#depart-1-mobile",
+      "menu-item#depart-2-mobile",
+      "flex-layout.col#box-menu-mobile-outros"  
     ],
     "props": {
       "blockClass": "box-col_menu_mobile"
