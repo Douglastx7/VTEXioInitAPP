@@ -30,7 +30,7 @@
             "itemsPerPage": {
                 "desktop": 8,
                 "tablet": 1,
-                "phone": 1
+                "phone": 3
             },
             "blockClass": "slider-container",
             "showPaginationDots": "never"
@@ -580,4 +580,5 @@
             "blockClass": "text-geral"
         }
     }
+
 }

@@ -49,3 +49,37 @@
     right: 50px;
     bottom: 15px;
 }
+
+/* ============================MOBILE */
+
+@media (max-width: 640px) {
+  .container--title-h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .heading--title-h1 {
+    color: #441AFA;
+    font-size: 32px;
+    margin-top: 40px;
+    letter-spacing: 9.6px;
+  }
+  .container--sobre-h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper--sobre-h2 {
+    width: 364px;
+    color: #000000; 
+    font-size: 16px;
+}
+
+.wrapper--button-about {
+  margin-top: 35px;
+  margin-bottom: 50px;
+  margin-right: 110px;
+}
+.container--button-about {
+  display: flex;
+  justify-content: center;
+}
+}

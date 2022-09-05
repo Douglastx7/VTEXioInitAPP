@@ -13,7 +13,8 @@
         "text": "Departamento 2"
       },
       "blockClass": [
-      ""
+        "dpt_2_mobile",
+        "dpts_mobile"
       ]
     },
     "blocks": [
@@ -24,7 +25,7 @@
   "vtex.menu@2.x:submenu.accordion#categorias_do_depart-2": {
   "props": {
     "orientation":"vertical",
-    "blockClass": ""
+    "blockClass": "subAcordion_todos_mobile"
   },
   "children": [
     "flex-layout.col#box-departamento__2"
@@ -60,7 +61,7 @@
         "text": "categoria 1"
       },
       "blockClass": [
-      ""
+        "categs_mobile"
       ]
     }
   },
@@ -86,7 +87,7 @@
         "text": "categoria 2"
       },
       "blockClass": [
-      ""
+        "categs_mobile"
       ]
     }
   }

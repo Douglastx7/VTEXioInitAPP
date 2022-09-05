@@ -11,4 +11,17 @@
 }
 
 
+/* ======================================== MOBILE */
+
+@media (max-width: 640px) {
+    .flexRow--box-about {
+        margin: 45px auto;
+    }
+    .flexColChild--box-col-about {
+        margin-left: 0px;
+    }
+}
+
+
+
 

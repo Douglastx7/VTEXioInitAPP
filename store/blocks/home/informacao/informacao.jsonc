@@ -47,7 +47,8 @@
         ],
         "props": {
             "blockClass": [
-                "wrapper__col-info-home"
+                "wrapper__col-info-home",
+                "__col-info-home__mobile"
             ]
         }
     },
@@ -135,5 +136,16 @@
             "text": "parceiro vollo",
             "blockClass": ["txt2"]
         }
+    },
+
+
+
+    // =========================================================================== MOBILE
+
+    "flex-layout.row#_box_info-frete_home__mobile": {
+        "children": [
+            "flex-layout.col#info-frete_home"
+        ]
     }
+
 }

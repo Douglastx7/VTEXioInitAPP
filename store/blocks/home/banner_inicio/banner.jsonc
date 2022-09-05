@@ -39,6 +39,55 @@
             "width": 1252,    
             "height": 460
         }
-    }
+    },
 
+
+    // ================================================== MOBILE
+
+
+
+    "slider-layout#banner_mobile": {
+        "children": [
+            "image#banner1_mobile",
+            "image#banner2_mobile",
+            "image#banner3_mobile"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 7000
+                // "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "never"
+        }
+    },
+    "image#banner1_mobile": {
+        "props": {
+            "src": "assets/imgs/banners/shopnow-mobile.png",     
+            "width": 414,
+            "height": 250,
+            "blockClass": "imgs_slider_inicio"
+        }
+    },
+    "image#banner2_mobile": {
+        "props": {
+            "src": "assets/imgs/banners/shopnow-mobile.png",
+             "width": 414,     
+            "height": 250,
+            "blockClass": "imgs_slider_inicio"
+        }
+    },
+    "image#banner3_mobile": {
+        "props": {
+            "src": "assets/imgs/banners/shopnow-mobile.png",
+            "width": 414,    
+            "height": 250,
+            "blockClass": "imgs_slider_inicio"
+        }
+    }
 }

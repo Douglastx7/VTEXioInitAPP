@@ -11,9 +11,27 @@
     flex-direction: row;
 }
 
+
+
 .flexCol--sub_coluna {
     flex-direction: row;
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
+}
+
+
+/* =========================================== MOBILE */
+
+
+@media (max-width: 640px) {
+    .flexCol--__col-info-home__mobile {
+       justify-content: center;
+       height: 62px;
+    }
+
+    .flexColChild--__col-info-home__mobile {
+        display: flex;
+        align-items: center;
+    }
 }

@@ -14,7 +14,8 @@
         "text": "Departamento 1"
       },
       "blockClass": [
-       ""
+       "dpt_1_mobile",
+       "dpts_mobile"
       ]
     },
     "blocks": [
@@ -25,7 +26,7 @@
   "vtex.menu@2.x:submenu.accordion#categorias_do_depart-1": {
   "props": {
     "orientation":"vertical",
-    "blockClass": ""
+    "blockClass": "subAcordion_todos_mobile"
   },
   "children": [
     "flex-layout.col#box-departamento__"
@@ -56,7 +57,7 @@
   "props": {
     "text": "Ver todos",
     "href": "#",
-    "blockClass":""
+    "blockClass":"dpts_ver_todos_mobile"
   }
 },
   // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CATEGORIAS 1
@@ -74,7 +75,8 @@
         "text": "categoria 1"
       },
       "blockClass": [
-        ""
+        "categ_1_mobile",
+        "categs_mobile"
       ]
     },
     "blocks": [
@@ -86,7 +88,7 @@
    "vtex.menu@2.x:submenu.accordion#categorias_1_mobile": {
     "props": {
       "orientation":"vertical",
-      "blockClass": ""
+      "blockClass": "subAcordion_todos_mobile"
     },
     "children": [
       "flex-layout.col#box-categorias__"
@@ -118,7 +120,7 @@
     "props": {
       "text": "Ver todos",
       "href": "#",
-      "blockClass":""
+      "blockClass":"categs_ver_todos_mobile"
     }
   },
 //   ------------    ITEMs SUBcategorias 
@@ -137,7 +139,7 @@
       "text": "Subcategoria 1"
     },
     "blockClass": [
-      ""
+      "subsCategorias_mobile"
     ]
   }
 },
@@ -156,7 +158,7 @@
       "text": "Subcategoria 2"
     },
     "blockClass": [
-   ""
+      "subsCategorias_mobile"
     ]
   }
 },
@@ -177,7 +179,7 @@
         "text": "categoria 2"
       },
       "blockClass": [
-    ""
+        "categs_mobile"
       ]
     },
     "blocks": [
@@ -190,7 +192,7 @@
    "vtex.menu@2.x:submenu.accordion#categorias_2_mobile": {
     "props": {
       "orientation":"vertical",
-      "blockClass": "caixa-de-categorias_2_sub"
+      "blockClass": "subAcordion_todos_mobile"
     },
     "children": [
       "flex-layout.col#box-categorias__2"
@@ -217,7 +219,7 @@
     "props": {
       "text": "Ver todos",
       "href": "#",
-      "blockClass":""
+      "blockClass":"categs_ver_todos_mobile"
     }
   },
 
@@ -237,7 +239,7 @@
       "text": "Subcategoria 1"
     },
     "blockClass": [
-   ""
+      "subsCategorias_mobile"
     ]
   }
 },
@@ -256,7 +258,7 @@
       "text": "Subcategoria 2"
     },
     "blockClass": [
-     ""
+      "subsCategorias_mobile"
     ]
   }
 }

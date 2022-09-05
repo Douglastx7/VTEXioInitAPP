@@ -44,18 +44,32 @@
 
         }
     },
-    // "info-card#button": {
-    //     "props": {
-    //       "isFullModeStyle": true,
-    //       "callToActionText": "LOREM IPSUM",
-    //       "blockClass":"button-about"
-    //     }
-    //   }
-
+  
     "rich-text#button": {
         "props": {
             "text": "LOREM IPSUM",
           "blockClass":"button-about"
         }
+      },
+
+
+      // ======================================================================== MOBILE
+
+      "flex-layout.row#about_mobile":{
+        "children": [
+          "image#modelos_mobile",
+            "flex-layout.col#info"
+        ],
+        "props": {
+            "blockClass":"box-about"
+        }
+      },
+
+      "image#modelos_mobile": {
+        "props": {
+          "src": "assets/imgs/banners/people-mobile.png",
+          "blockClass": ""
+        }
       }
+
 }

@@ -1,6 +1,30 @@
 {
   "store.home": { 
     "blocks": [
+      "responsive-layout.desktop#home",
+      "responsive-layout.tablet#home",
+      "responsive-layout.phone#home"
+    ]
+  },
+
+
+  "responsive-layout.desktop#home": {
+    "children": [
+      "slider-layout#banner",
+      "flex-layout.row#informacao-home",
+      "rich-text#todos-os-departamentos-title-text",
+       "slider-layout#home",
+       "flex-layout.row#about",
+       "flex-layout.row#new_in-sale",
+       "flex-layout.row#container-geral",
+       "list-context.product-list#demo1",
+       "flex-layout.row#banner_do_final",
+       "list-context.product-list#demo2"
+    ]
+  },
+
+  "responsive-layout.tablet#home": {
+    "children": [
       "slider-layout#banner",
       "flex-layout.row#informacao-home",
       "rich-text#todos-os-departamentos-title-text",
@@ -14,3 +38,5 @@
     ]
   }
 }
+
+

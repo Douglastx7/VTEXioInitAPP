@@ -32,9 +32,6 @@
     background-color: #FFFFFF;
 }
 
-/* .styledLinkContainer--minha-conta_e_atendimento {
- padding-top: 10px;
-} */
 
 .styledLinkContent--minha-conta_e_atendimento { 
     color: #441AFA;
@@ -45,5 +42,123 @@
     text-transform: uppercase;
 }
 
+.styledLinkContent--loja_e_seja_um {
+    color: #25282A;
+    font-size: 14px;
+    font-weight: bold;
+
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
 
 
+.menuItemInnerDiv--dpts_mobile {
+    background-color: #FFFFFF;
+    border-bottom: solid 1px #EEEEEE;
+    position: relative;
+}
+
+.accordionIcon--dpts_mobile,
+.accordionIcon--categs_mobile {
+    opacity: 0;
+}
+
+
+
+.styledLinkContent--dpts_mobile {
+    font-size: 14px;
+    color: #25282A;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+
+.menuItemInnerDiv--dpts_mobile .styledLinkContent--dpts_mobile:hover,
+.menuItemInnerDiv--categs_mobile .styledLinkContent--categs_mobile:hover{
+    color: #441AFA;
+    font-weight: bold;
+}
+
+
+.menuItemInnerDiv--dpts_mobile::after,
+.menuItemInnerDiv--categs_mobile::after  {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/icons/seta-preta.png');
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    right: 10px;
+    top: 30%;
+    transform: translateY(-50%);
+    transform: rotate(90deg);
+    position: absolute;
+    transition: .3s;
+}
+
+  .menuItemInnerDiv--dpts_mobile:hover::after,
+  .menuItemInnerDiv--categs_mobile:hover::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-image: url('assets/icons/seta-azulOUroxa.png');
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    right: 10px;
+    top: 30%;
+    transform: translateY(-50%);
+    transform: rotate(90deg);
+    position: absolute;
+  }
+
+
+
+  .menuItem--dpts_mobile--isOpen .styledLinkContent--dpts_mobile,
+  .menuItem--categs_mobile--isOpen .styledLinkContent--categs_mobile {
+   color: #441AFA;
+   font-weight: bold;
+  }
+
+
+  .menuItem--dpts_mobile--isOpen .menuItemInnerDiv--dpts_mobile::after,
+  .menuItem--categs_mobile--isOpen .menuItemInnerDiv--categs_mobile::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/icons/seta-azulOUroxa.png');
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    right: 10px;
+    top: 30%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    position: absolute;
+    transition: .3s;
+  }
+
+  .submenuAccordion--subAcordion_todos_mobile {
+    background-color: #FFFFFF;
+  }
+
+  .styledLinkContent--categs_mobile {
+    font-size: 14px;
+    color: #25282A;
+    text-transform: uppercase;
+  }
+
+  .menuItemInnerDiv--categs_mobile {
+    position: relative;
+  }
+
+  .styledLinkContent--subsCategorias_mobile {
+    font-size: 14px;
+    color: #8C8F90;
+  }
+
+  .styledLinkContent--subsCategorias_mobile:hover {
+    color: #441AFA;
+    font-weight: bold;
+  }
