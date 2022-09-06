@@ -11,13 +11,13 @@
 
     "flex-layout.col#_coluna_com_2_row": {
         "children": [
-            "rich-text",
+            "rich-text#titulo_de_banners",
             "flex-layout.row#_row_top",
             "flex-layout.row#_row_bottom"
         ]
     },
 
-    "rich-text": {
+    "rich-text#titulo_de_banners": {
         "props": {
             "text": "título de banners",
             "blockClass":"title_de_banner_products"
@@ -25,9 +25,6 @@
     },
 
 // --------------------------------------------------------------
-
-
-
 
     "flex-layout.row#_row_top": {
         "children": [
@@ -105,5 +102,32 @@
             "width": 390,
             "blockClass": "box-imgs-banner-products"
         }
+    },
+
+
+    // =======================================    MOBILE
+
+
+    "slider-layout#container_geral_products_slider": {
+        "children": [
+            "image#banner_eletronico",
+            "image#banner_roupa",
+            "image#banner_acessorio",
+            "image#perfume",
+            "image#consmetico",
+            "image#calcados"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "blockClass": "box__container_geral_products_slider"
+        }
     }
+
 }

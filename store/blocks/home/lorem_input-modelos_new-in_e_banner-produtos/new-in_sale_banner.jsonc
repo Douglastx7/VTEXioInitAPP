@@ -10,16 +10,6 @@
     },
 
 
-
-
-
-
-
-
-
-
-
-
     "flex-layout.col#new_in": {
         "children": [
             "image#new-in__"
@@ -56,6 +46,58 @@
             "width": 616,
             "blockClass": "box-banner-img_sale"
         }
+    },
+
+    // =========== MOBILE
+
+    "flex-layout.row#new_in-sale__mobile": {
+        "children": [
+            "flex-layout.col#new_in__mobile",
+            "flex-layout.col#sale__mobile"
+        ],
+        "props": {
+            "blockClass": "box-geral-banners"
+        }
+    },
+
+
+    "flex-layout.col#new_in__mobile": {
+        "children": [
+            "image#new-in____mobile"
+        ],
+        "props": {
+            "blockClass": "box-col-banners_new-in"
+        }
+    },
+
+    "image#new-in____mobile": {
+        "props": {
+            "src": "assets/imgs/banners/banner-newin.png",
+            "height": 345,
+            "width": 374,
+            "blockClass": "box-banner-img_newin"
+        }
+    },
+
+
+    "flex-layout.col#sale__mobile": {
+        "children": [
+            "image#sale____mobile"
+        ],
+        "props": {
+            "blockClass": "box-col-banners_sale"
+        }
+    },
+
+
+    "image#sale____mobile": {
+        "props": {
+            "src":  "assets/imgs/banners/banner-sale.png",
+            "height": 345,
+            "width": 374,
+            "blockClass": "box-banner-img_sale"
+        }
     }
+
 }
 

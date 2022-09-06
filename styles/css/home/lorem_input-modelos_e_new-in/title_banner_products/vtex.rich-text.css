@@ -8,3 +8,11 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/* ==============MOBILE */
+
+@media (max-width: 640px) {
+  .paragraph--title_de_banner_products {
+   width: 164px;
+}
+}

@@ -31,3 +31,23 @@
     right: 110px;
     
 }
+
+/* ================  MOBILE */
+
+@media (max-width: 640px) {
+
+    .sellingPriceContainer {
+        display: flex;
+       justify-content: flex-start;
+    }
+    .sellingPriceValue {
+        font-size: 20px;
+        font-weight: bold;
+    }    
+  .installmentsPrice {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+   
+}

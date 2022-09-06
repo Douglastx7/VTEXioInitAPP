@@ -5,7 +5,11 @@
         "flex-layout.row#_box_info-frete_home__mobile",
         "rich-text#todos-os-departamentos-title-text",
         "slider-layout#home",
-        "flex-layout.row#about_mobile"
+        "flex-layout.row#about_mobile",
+        "flex-layout.row#new_in-sale__mobile",
+        "rich-text#titulo_de_banners",
+        "slider-layout#container_geral_products_slider",
+        "list-context.product-list#demo1"
        ] 
     }
 }

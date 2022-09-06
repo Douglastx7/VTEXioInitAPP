@@ -10,3 +10,9 @@
 }
 
 /* ============================================== */
+
+@media (max-width: 640px) {
+    .wrapper--title_vitrine_1 { 
+        margin-top: 50px;
+    }
+}

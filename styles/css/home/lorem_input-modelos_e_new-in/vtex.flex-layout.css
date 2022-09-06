@@ -1,19 +1,28 @@
-
-
-
 .flexRow--box-geral-banners {
     margin: 0 auto;
     background-color: #FFFFFF;
 }
-
-
 .flexColChild--box-col-banners_new-in {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
 }
-
 .flexColChild--box-col-banners_sale {
  margin-left: 10px;
+}
+/* =========================== MOBILE */
+@media (max-width: 640px) {
+
+    .flexRow--box-geral-banners {
+        display: flex;
+        justify-content: center;
+    }
+.flexColChild--box-col-banners_new-in {
+    margin-right: 0px;
+}
+.flexColChild--box-col-banners_sale {
+    margin-left: 0px;
+    margin-top: 20px;
+}
 
 }

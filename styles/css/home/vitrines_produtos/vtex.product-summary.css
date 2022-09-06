@@ -1,6 +1,6 @@
  .element{
    position: relative; 
-
+   margin: 7px;
 }
 .element::after {
 content: 'novidade';
@@ -30,6 +30,8 @@ z-index: 100;
 
 
   .brandName {
+    font-size: 14px;
+    text-align: start;
     color: #25282A;
     text-transform: uppercase;
   }
@@ -37,12 +39,13 @@ z-index: 100;
   .nameContainer {
     display: flex;
     justify-content: flex-start;
+    text-align: start;
   }
 
   .priceContainer {
     display: flex;
-    justify-content: flex-start;
-    padding-right: 140px;
+    align-items: flex-start;
+    padding-right: 0px;
   }
 
 .listPriceContainer {
@@ -65,4 +68,50 @@ z-index: 100;
  height: 19px;
  z-index: 9999;
  position: absolute;
+}
+
+/* =======================================MOBILE */
+
+@media (max-width: 640px) {
+  .element::after {
+    content: 'novidade';
+    top: 50px;
+    }
+    .element::before {
+      content: 'inovação';
+      top: 85px;
+    }  
+
+    .imageWrapper::after {
+      top: 40px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 390px) {
+  .element::after {
+    content: 'novidade';
+    font-size: 7px;
+    top: 70px;
+    }
+    .element::before {
+      content: 'inovação';
+      font-size: 7px;
+      top: 100px;
+    }  
+
+    .imageWrapper::after {
+      top: 60px;
+     }
 }

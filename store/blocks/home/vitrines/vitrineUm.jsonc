@@ -70,12 +70,11 @@
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 1,
-        "phone": 1
+        "phone": 2
       },
       "blockClass": "box-slider_vitrine_1",
       "infinite": true,
       "showNavigationArrows": "desktopOnly"
-      // "showPaginationDots": "desktopOnly"
     }
   }
 }
