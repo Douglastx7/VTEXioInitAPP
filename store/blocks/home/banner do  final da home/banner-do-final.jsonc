@@ -15,5 +15,25 @@
             "height": 421,
             "blockClass": "img-banner-final"
         }
+    },
+    // ========================================== MOBILE
+
+
+    "flex-layout.row#banner_do_final_mobile": {
+        "children": [
+            "image#banner-final_mobile"
+        ],
+        "props": {
+            "blockClass": "box-banner-final"
+        }
+    },
+
+    "image#banner-final_mobile": {
+        "props": {
+            "src": "assets/imgs/banners/banner-frete-mobile.png",
+            "width": 414,
+            "height": 187,
+            "blockClass": "img-banner-final"
+        }
     }
 }

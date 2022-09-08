@@ -73,6 +73,9 @@ z-index: 100;
 /* =======================================MOBILE */
 
 @media (max-width: 640px) {
+  .element{
+    background-color: #ffff;
+ }
   .element::after {
     content: 'novidade';
     top: 50px;
@@ -84,6 +87,9 @@ z-index: 100;
 
     .imageWrapper::after {
       top: 40px;
+     }
+     .buyButton {
+      width: 100px;
      }
 }
 

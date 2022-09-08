@@ -28,4 +28,8 @@
   /* ==================== MOBILE */
 
 
-
+@media (max-width: 640px) {
+  .sliderLayoutContainer--box-slider_vitrine_1 {
+    margin-bottom: 60px;
+  }
+}

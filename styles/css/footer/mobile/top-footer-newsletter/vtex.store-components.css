@@ -1,0 +1,23 @@
+@media (max-width:640px) {
+   .logoImage--logo_footer {
+     margin: 0 auto;
+    }
+    
+    .logoContainer--logo_footer {
+      position: relative;
+    }
+
+    .logoContainer--logo_footer::before {
+      content: '';
+      width: 308px;
+      height: 358px;
+      background-image: url('assets/imgs/logos/logo-transparente.png');
+      background-size: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 30px;
+      left: -210px;
+      position: absolute;
+      opacity: 90%;
+  }
+}

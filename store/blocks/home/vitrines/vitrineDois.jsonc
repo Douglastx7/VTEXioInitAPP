@@ -16,7 +16,7 @@
   "product-summary-buy-button"
 ],
 "props": {
-  "blockClass": "box_quantity_button"
+  "blockClass": ["box_quantity_button","box_quantity_button_vitrine_2"]
 }
 },
 

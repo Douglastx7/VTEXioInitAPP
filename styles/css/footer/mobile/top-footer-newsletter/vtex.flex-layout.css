@@ -1,0 +1,15 @@
+
+@media (max-width: 640px) {
+    .flexCol--logo_e_titles {
+        flex-direction: column;
+    }
+
+    .flexRow--box_top_footer {
+        height: 500px;
+        background-color: #eeee;
+    }
+
+    .flexCol--logo_e_titles {
+        background-color: #eeee;  
+    }
+}

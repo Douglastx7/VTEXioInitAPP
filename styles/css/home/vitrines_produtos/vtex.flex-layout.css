@@ -59,3 +59,29 @@
 }
 
 /* ====================== MOBILE */
+
+
+@media (max-width: 640px) {
+    .flexRow--box_quantity_button :global(.vtex-product-summary-2-x-buyButtonContainer) {
+        width:87px;
+        margin-left: 5px;
+    }
+
+    .flexRow--box_quantity_button :global(.vtex-button )::before {
+        left: 13%;
+    }
+
+    .flexRow--box_quantity_button :global(.vtex-numeric-stepper__input ){
+       width: 20px;
+    }
+
+    .flexRowContent--box_quantity_button {
+        width: 130px;
+       display: flex;
+    }
+   .flexRow--box_quantity_button {
+    background-color: #FFFFFF;
+   }
+ 
+  
+}

@@ -1,0 +1,40 @@
+@media (max-width: 640px) {
+   
+   .formSubmitContainer--_submit_ {
+    justify-content: center;
+    padding-right: 25px;
+    margin-top: 15px;
+    background-color: #eeee;
+   }
+
+   .newsletterForm--class_newsletter-form {
+    justify-content: center;
+    padding-left: 17px;
+   }
+
+.nameInputContainer--_name_ :global(.vtex-styleguide-9-x-input),
+.emailInputContainer--_email_ :global(.vtex-styleguide-9-x-input)
+{
+  background-color: #eeee;
+  width: 316px;
+}
+
+.nameInputContainer--_name_ :global(.vtex-input-prefix__group){
+  width: 316px;
+  margin-left: 0px;
+  background-color: #eeee;
+}
+
+  .emailInputContainer--_email_ :global(.vtex-input-prefix__group) {
+  width: 316px;
+      background-color: #eeee;
+  }
+
+  .newsletterForm--class_newsletter-form {
+    background-color: #eeee;
+  }
+
+  .formSubmitContainer--_submit_ :global(.vtex-button) {
+    font-size: 20px;
+  }
+}
