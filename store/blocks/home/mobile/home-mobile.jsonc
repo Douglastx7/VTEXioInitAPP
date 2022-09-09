@@ -8,9 +8,10 @@
         "flex-layout.row#about_mobile",
         "flex-layout.row#new_in-sale__mobile",
         "rich-text#titulo_de_banners",
+        "slider-layout#container_geral_products_slider",
         "list-context.product-list#demo1",
         "flex-layout.row#banner_do_final_mobile",
         "list-context.product-list#demo2"
-       ] 
+        ] 
     }
 }

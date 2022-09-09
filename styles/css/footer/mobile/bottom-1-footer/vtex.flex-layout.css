@@ -1,0 +1,23 @@
+
+.flexCol--box_img_cards {
+  margin: 20px 0px; 
+  padding-top: 50px;
+  position: relative;
+}
+
+.flexCol--box_img_cards::after {
+  content: '';
+  width: 372px;
+  height: 1px;
+  background-color: #25282A;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+
+.flexCol--coluna_left,
+.flexCol--coluna_right {
+    justify-content: center;
+}

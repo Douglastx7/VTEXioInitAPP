@@ -1,14 +1,6 @@
-
-
-
 @media (max-width: 1020px) { 
     
-    /* .flexColChild--payment-methods .stretchChildrenWidth {
-        display: flex;
-        flex-direction: row;
-        background-color: blue;
-    } */
-
+ 
     .flexColChild--payment-methods {
         flex-direction: row;
 
@@ -18,3 +10,17 @@
         justify-content: center;
       }
     }
+
+
+@media (max-width:640px) {
+
+  .flexRowContent--box-social {
+      display: flex;
+  }
+ .flexRow--box-social .stretchChildrenWidth {
+  display: flex;
+   padding: 0;
+}
+}
+
+

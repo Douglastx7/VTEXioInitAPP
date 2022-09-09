@@ -1,1 +1,46 @@
+.styledLinkContent--mobile__acoordion {
+    font-size: 20px;
+    color: #25282A;
+    font-weight: bold;
+}
 
+.accordionIcon--mobile__acoordion {
+    opacity: 0;
+}
+
+.menuItemInnerDiv--mobile__acoordion {
+position: relative;
+}
+
+
+.menuItemInnerDiv--mobile__acoordion::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/icons/seta-preta.png');
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    right: 10px;
+    top: 30%;
+    transform: translateY(-50%);
+    transform: rotate(90deg);
+    position: absolute;
+    transition: .3s;
+}
+
+/* ====================== */
+
+
+@media (max-width: 640px) {
+    .styledLinkContent--2-3-items-blocks {
+        margin-left: 0px;
+    } 
+    .styledLinkContent--items_blocks {
+        color: #25282A;
+        font-size: 14px;
+        margin-left: -10px;
+    } 
+}
+
+ 

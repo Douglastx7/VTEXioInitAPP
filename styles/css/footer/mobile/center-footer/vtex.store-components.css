@@ -3,5 +3,22 @@
 @media (max-width: 1020px) {  
 .imageElement--icons-facebook {
     margin-right: 0px;
+    display: flex;
+    justify-content: flex-end;
 }
+}
+
+
+@media (max-width: 640px) {
+  
+    .imageElement--icons-facebook {
+       margin: 0 10px 0 140px;
+    }
+    
+
+    .imageElement--icons-instagram {
+       margin: 0 140px 0 10px;
+        width: 25px;
+        height: 25px;
+    }
 }

@@ -1,5 +1,6 @@
 @media (max-width: 640px) {
-    .container--_title_::before {
+
+.container--_title_::before {
         content: '';
         width: 308px;
         height: 358px;
@@ -10,7 +11,7 @@
         top: 0px;
         left: -63px;
         position: absolute;
-        display: none;
+        display: none; 
     }
     
 }

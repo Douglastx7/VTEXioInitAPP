@@ -17,6 +17,7 @@
 {
   background-color: #eeee;
   width: 316px;
+  z-index: 100;
 }
 
 .nameInputContainer--_name_ :global(.vtex-input-prefix__group){

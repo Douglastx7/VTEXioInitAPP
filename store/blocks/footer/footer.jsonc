@@ -46,7 +46,7 @@
   "logo#logo-footer": {
     "props": {
       "title": "Logo-avanti",
-      "href": "/",
+      // "href": "/",
       "url": "assets/imgs/logos/footer-logo-avanti.png",
       "width": "118",
       "height": "85",
@@ -293,7 +293,7 @@
       "src": "assets/imgs/logos/logo-vtex.png"
     }
   },
-  // =========================================================================
+  // =========================================================================  MOBILE
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#row-do-newsletter",
@@ -315,8 +315,9 @@
     "children": [
       "accepted-payment-methods",
       "flex-layout.row#icons-networks",
+      "flex-layout.col#footer-2-mobile",
       "rich-text#footer-mobile"
-    ],
+        ],
     "props": {
       "blockClass": "payment-methods",
       "paddingTop": 4,
@@ -324,6 +325,18 @@
       "rowGap": 4
     }
   },
+
+
+  "flex-layout.col#footer-2-mobile": {
+    "children": [
+      "flex-layout.col#icons-left",
+      "flex-layout.col#icons-right"
+    ],
+    "props": {
+      "blockClass": ["box_img_cards"]
+    }
+  },
+
 
 // "flex-layout.row"
 

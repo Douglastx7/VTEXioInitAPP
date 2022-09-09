@@ -383,7 +383,8 @@
           "noFollow": true,
           "tagTitle": "institucional",
           "text": "Institucional"
-        }
+        },
+        "blockClass": "mobile__acoordion"
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#institucional"]
     },
@@ -410,7 +411,8 @@
         "itemProps": {
           "tagTitle": "Precisa de ajuda?",
           "text": "Precisa de ajuda?"
-        }
+        },
+        "blockClass": "mobile__acoordion"
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#prescida-de-ajuda"]
     },
@@ -436,7 +438,8 @@
         "itemProps": {
           "tagTitle": "Fale Conosco",
           "text": "Fale Conosco"
-        }
+        },
+        "blockClass": "mobile__acoordion"
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#fale-conosco"]
     },
