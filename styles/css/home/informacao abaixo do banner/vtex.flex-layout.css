@@ -25,12 +25,12 @@
 
 
 @media (max-width: 640px) {
-    .flexCol--__col-info-home__mobile {
+    .flexCol--info_box_geral {
        justify-content: center;
        height: 62px;
     }
 
-    .flexColChild--__col-info-home__mobile {
+    .flexColChild--info_box_geral {
         display: flex;
         align-items: center;
     }

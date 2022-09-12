@@ -38,7 +38,6 @@
         }
     },
 
-
     //----------------------------------------- >>>>>>>>>>>>>>> FRETE GRATIS
     "flex-layout.col#info-frete_home": {
         "children": [
@@ -48,7 +47,8 @@
         "props": {
             "blockClass": [
                 "wrapper__col-info-home",
-                "__col-info-home__mobile"
+                "__col-info-home__mobile",
+                "info_box_geral"
             ]
         }
     },
@@ -69,12 +69,13 @@
     "flex-layout.col#info-primeira-troca_home": {
         "props": {
             "blockClass": [
-                "wrapper__col-info-home"
+                "wrapper__col-info-home",
+                "info_box_geral"
             ]
         },
         "children": [
             "rich-text#primeira-troca-txt1",
-            "rich-text#primeira-troca-txt2"
+            "rich-text#primeira-troca-txt2"    
         ]
     },
     "rich-text#primeira-troca-txt1": {
@@ -93,7 +94,8 @@
     "flex-layout.col#info-ate-12x_home": {
         "props": {
             "blockClass": [
-                "wrapper__col-info-home"
+                "wrapper__col-info-home",
+                "info_box_geral"
             ]
         },
         "children": [
@@ -117,7 +119,8 @@
     "flex-layout.col#encontre-um-parceiro_home": {
         "props": {
             "blockClass": [
-                "wrapper__col-info-home"
+                "wrapper__col-info-home",
+                "info_box_geral"
             ]
         },
         "children": [
@@ -137,15 +140,66 @@
             "blockClass": ["txt2"]
         }
     },
-
-
-
     // =========================================================================== MOBILE
+    "slider-layout#home_informacao_mobile": {
+        "children": [
+            "flex-layout.row#_box_info-frete_home__mobile",
+            "flex-layout.row#_box_info-primeira-troca_home__mobile",
+            "flex-layout.row#_box_info-ate-12x_home__mobile",
+            "flex-layout.row#_box_info-encontre-um-parceiro_home__mobile"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 3000
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "blockClass": ["slider-container","box_slider_mobile"],
+            "showPaginationDots": "never",
+            "showNavigationArrows": "never"
+        }
+    },
 
+// ----------
     "flex-layout.row#_box_info-frete_home__mobile": {
         "children": [
             "flex-layout.col#info-frete_home"
         ]
+    },
+
+    "flex-layout.row#_box_info-primeira-troca_home__mobile": {
+        "children": [
+            "flex-layout.col#info-primeira-troca_home"
+        ]
+    },
+
+    "flex-layout.row#_box_info-ate-12x_home__mobile": {
+        "children": [
+            "flex-layout.col#info-ate-12x_home"
+        ]
+    },
+
+    "flex-layout.row#_box_info-encontre-um-parceiro_home__mobile": {
+        "children": [
+            "flex-layout.col#encontre-um-parceiro_home"
+        ]
     }
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
 
 }

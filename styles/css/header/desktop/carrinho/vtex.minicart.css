@@ -1,0 +1,47 @@
+
+
+.minicartTitle  {
+position: relative;
+font-size: 15px;
+}
+
+.minicartTitle::after {
+    content: 'meu carrinho';
+    background-color: #FFFFFF;
+    color: #441AFA;
+    width: 100%;
+    margin-left: 23px;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+   text-transform: uppercase;
+}
+
+
+.minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRow) {
+    background-color: #FFFFFF;
+}
+
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-price) {
+    color: #441AFA;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.minicartProductListContainer :global(.vtex-dropdown__arrow) {
+   padding-left: 7px;
+}
+.minicartProductListContainer :global(.vtex-dropdown__button) {
+    padding-left: 30px;
+
+}
+
+.minicartProductListContainer :global(.vtex-dropdown__arrow),
+.minicartProductListContainer :global(.vtex-product-list-0-x-removeButton) {
+    color: #B1B3B3;
+}
+
+
+

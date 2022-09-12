@@ -1,0 +1,15 @@
+.flexRow--minicart-footer {
+    background-color: #FFFFFF;
+    box-shadow: none;
+    border-top: 1px solid  #E9E9E9;
+}
+
+
+/* 
+.flexRow--minicart-footer :global(.vtex-checkout-summary-0-x-summaryItemLabel)  {
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: yellow;
+} */
+
+

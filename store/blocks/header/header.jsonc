@@ -56,19 +56,6 @@
     }
   },
 
-  //  ----- ADD EXTERNO
-  // "store.search": {
-  //   "blocks": ["search-result-layout"]
-  // },
-  // "search-result-layout": {
-  //   "blocks": [
-  //     "search-result-layout.desktop",
-  //     "search-result-layout.mobile",
-  //     "search-not-found-layout"
-  //   ]
-  // },
-  //  ----- ____________
-
   "search-bar": {
     "props": {
       "placeholder":"O que você procura?"
@@ -87,6 +74,16 @@
     "blockClass":["header__col", "header__col-right"]
     }
   },
+
+
+
+// >>>>>>>>>>>>>>>
+
+
+
+// >>>>>>>>>>>>>>>
+
+
 
 
   "flex-layout.col#logo-desktop": {
@@ -123,7 +120,6 @@
     "children": [
       "drawer",
       "logo",
-      // "login",
       "minicart.v2"
     ],
     "props": {
