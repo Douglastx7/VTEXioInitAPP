@@ -45,3 +45,8 @@ font-size: 15px;
 
 
 
+.minicartCheckoutButton :global(.vtex-button) {
+    background-color: #441AFA;
+    border:none;
+    border-radius: 0;
+}

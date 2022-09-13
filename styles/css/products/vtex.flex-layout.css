@@ -1,0 +1,53 @@
+.flexRowContent--product-main :global(.vtex-store-components-3-x-sellingPrice) {
+    font-size: 24px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+.flexRowContent--product-main :global(.vtex-store-components-3-x-sellingPriceContainer) {
+ margin-bottom: 6px;
+}
+.flexRowContent--product-main :global(.vtex-store-components-3-x-installmentsPrice) {
+    margin-bottom: 36px;
+}
+.flexRowContent--product-main :global(.vtex-store-components-3-x-installmentsPrice):first-child {
+display: none;
+}
+.flexRowContent--product-main :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flexRowContent--product-main :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+    color: #25282A;
+  margin-bottom: 0;
+  margin-right: 16px;
+  position: relative;
+}
+.flexRowContent--product-main :global(.vtex-product-quantity-1-x-quantitySelectorTitle)::after {
+content: ':';
+right: -4px;
+position: absolute;
+}
+
+.flexRowContent--product-main :global(.vtex-numeric-stepper-container) {
+    align-items: center;
+}
+.flexRowContent--product-main :global(.vtex-numeric-stepper__input) {
+    width: 25px;
+    height: 40px;
+    font-size: 14px;
+    border-left: none;
+    border-right: none;
+    border-top: solid 1px #EEEEEE;;
+    border-bottom: solid 1px #EEEEEE;;
+}
+.flexRowContent--product-main :global(.vtex-numeric-stepper__plus-button-container) {
+  border: solid 1px #EEEEEE;
+  border-left: none;
+}
+.flexRowContent--product-main :global(.vtex-numeric-stepper__minus-button__text):first-child,
+.flexRowContent--product-main :global(.vtex-numeric-stepper__plus-button__text):first-child{
+    color: #25282A;
+    font-size: 30px;
+}

@@ -20,6 +20,12 @@
 }
 },
 
+"product-quantity": { 
+  "props": {
+    "showLabel": false
+  }
+},
+
 "product-summary-image": {
   "props": {
     "width": 298
