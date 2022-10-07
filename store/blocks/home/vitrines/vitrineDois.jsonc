@@ -1,7 +1,7 @@
 {
   "product-summary.shelf#demo2": {
     "children": [
-      "product-summary-image",
+      "product-summary-image#2",
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
@@ -13,21 +13,21 @@
 "flex-layout.row#box_quantity_button": {
 "children": [
   "product-quantity",
-  "product-summary-buy-button"
+  "product-summary-buy-button#_2"
 ],
 "props": {
   "blockClass": ["box_quantity_button","box_quantity_button_vitrine_2"]
 }
 },
 
-"product-summary-image": {
+"product-summary-image#2": {
   "props": {
     "width": 298
   }
 },
 
 
-"product-summary-buy-button": {
+"product-summary-buy-button#_2": {
   "props": {
     "buyButtonText": "comprar"
   }
@@ -40,7 +40,7 @@
     ],
     "children": [
       "rich-text#title_vitrine_2",
-      "flex-layout.row#box_geral_vitrine"
+      "flex-layout.row#box_geral_vitrine_2"
     ],
     "props": {
       "blockClass": "box-list-context_product_vitrine"
@@ -48,9 +48,9 @@
   },
 
 
-  "flex-layout.row#box_geral_vitrine": {
+  "flex-layout.row#box_geral_vitrine_2": {
     "children": [
-      "slider-layout#banner_vitrine_1"
+      "slider-layout#banner_vitrine_2"
     ],
     "props": {
       "blockClass": "box_geral_vitrine"
@@ -65,7 +65,7 @@
   },
 
 
-  "slider-layout#banner_vitrine_1": {
+  "slider-layout#banner_vitrine_2": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
