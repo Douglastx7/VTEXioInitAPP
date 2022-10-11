@@ -1,8 +1,13 @@
 
-
 .minicartTitle  {
 position: relative;
 font-size: 15px;
+margin-left: 25px;
+}
+@media (max-width: 640px) {
+    .minicartTitle  {
+        margin-left: 13px;
+        }
 }
 
 .minicartTitle::after {
@@ -10,7 +15,6 @@ font-size: 15px;
     background-color: #FFFFFF;
     color: #441AFA;
     width: 100%;
-    margin-left: 23px;
     top: 0;
     left: 0;
     opacity: 1;
@@ -44,9 +48,13 @@ font-size: 15px;
 }
 
 
-
 .minicartCheckoutButton :global(.vtex-button) {
     background-color: #441AFA;
     border:none;
     border-radius: 0;
+}
+
+
+.minicartProductListContainer :global(.vtex-styleguide-9-x-container) {
+    min-width: 80px;
 }

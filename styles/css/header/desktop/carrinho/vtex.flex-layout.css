@@ -4,12 +4,23 @@
     border-top: 1px solid  #E9E9E9;
 }
 
+.flexRow--minicart-footer :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  font-size: 12px;
+  color: #25282A;
+  text-transform: uppercase;
+}
 
-/* 
-.flexRow--minicart-footer :global(.vtex-checkout-summary-0-x-summaryItemLabel)  {
+.flexRow--minicart-footer :global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child {
   font-size: 14px;
   text-transform: uppercase;
-  background-color: yellow;
-} */
+}
+
+.flexRow--minicart-footer :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child {
+  color: #441AFA;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 
 
