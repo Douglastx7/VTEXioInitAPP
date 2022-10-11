@@ -177,7 +177,7 @@
     position: relative;
 }
 
-.flexRowContent--product-main :global(.vtex-store-components-3-x-buyButtonText)::after {
+.flexRowContent--product-main :global(.vtex-add-to-cart-button-0-x-buttonText)::after {
     content: 'comprar';
     display: flex;
     justify-content: center;

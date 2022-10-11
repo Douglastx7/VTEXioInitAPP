@@ -12,9 +12,26 @@
 
 
 
+/* ------------- */
+
+.flexRow--box_quantity_button :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 8px;
+     opacity: 0;
+}
+
+.flexRow--box_quantity_button :global(.vtex-button) {
+  border: none;
+  border-radius: 0px;
+}
+
+.flexRow--box_quantity_button :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    margin-left: 5px;
+}
+
+/* --------------- */
+
 .flexRow--box_quantity_button  .flexRowContent {
     background-color: #FFFFFF;
- 
 }
 
 
@@ -35,8 +52,8 @@
     z-index: 500;
 }
 
-.flexRow--box_quantity_button :global(.vtex-product-summary-2-x-buyButton) {
 
+.flexRow--box_quantity_button :global(.vtex-product-summary-2-x-buyButton) {
     background-color: #441AFA;
     border: none;
 }

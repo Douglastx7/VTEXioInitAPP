@@ -59,7 +59,9 @@
       "product-price#product-details",
       "sku-selector",
       "product-quantity#product_page",
+      // >>>>>>>>>
       "flex-layout.row#buy-button",
+      // >>>>>>>>>
       "shipping-simulator"
     ]
   },
@@ -190,15 +192,19 @@
       "marginBottom": 7
     },
     "children": [
-      "buy-button"
+      // "buy-button"
+      "add-to-cart-button#buy_Button_PDP"
     ]
   },
 
-  "buy-button": {
-    "props": {
-      "blockClass": "_buy_button_text"
-    }
-  },
+
+  //  ----  NEW BUTTON
+"add-to-cart-button#buy_Button_PDP": {
+  "props":{
+    "blockClass": "box_buy_button_"
+  }
+},
+
 
   "share#default": {
     "props": {

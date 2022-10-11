@@ -13,7 +13,7 @@
 "flex-layout.row#box_quantity_button": {
 "children": [
   "product-quantity",
-  "product-summary-buy-button#_2"
+  "add-to-cart-button#buy_Button2"
 ],
 "props": {
   "blockClass": ["box_quantity_button","box_quantity_button_vitrine_2"]
@@ -27,9 +27,10 @@
 },
 
 
-"product-summary-buy-button#_2": {
-  "props": {
-    "buyButtonText": "comprar"
+//  ----  NEW BUTTON
+"add-to-cart-button#buy_Button2": {
+  "props":{
+    "blockClass": "box_buy_button_"
   }
 },
 

@@ -7,13 +7,14 @@
       "product-summary-space",
       "product-summary-price",
       "flex-layout.row#box_quantity_button_1"
+      
     ]
   },
 
 "flex-layout.row#box_quantity_button_1": {
 "children": [
   "product-quantity",
-  "product-summary-buy-button"
+  "add-to-cart-button#buy_Button"
 ],
 "props": {
   "blockClass": "box_quantity_button"
@@ -32,10 +33,10 @@
   }
 },
 
-
-"product-summary-buy-button": {
-  "props": {
-    "buyButtonText": "comprar"
+//  ----  NEW BUTTON
+"add-to-cart-button#buy_Button": {
+  "props":{
+    "blockClass": "box_buy_button_"
   }
 },
 
