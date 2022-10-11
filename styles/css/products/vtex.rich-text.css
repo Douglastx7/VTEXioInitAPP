@@ -2,3 +2,13 @@
     color: #25282A;
     font-size: 14px;
 }
+
+.paragraph--title_vitrine_4 {
+    margin-top: 80px;
+}
+
+@media (max-width: 640px) {
+    .paragraph--title_vitrine_4 {
+        margin-top: 0px;
+    }
+}
