@@ -1,27 +1,19 @@
 .flexRow--box_geral_vitrine {
     max-width: 1252px;
- margin: 0 auto;
+    margin: 0 auto;
 }
 
-.flexRow--box_geral_vitrine :global(.vtex-store-components-3-x-container) { 
+.flexRow--box_geral_vitrine :global(.vtex-store-components-3-x-container) {
     background-color: #FFFFFF;
 }
 
 
 /* ============================================== */
 
-
-
-/* ------------- */
-
-.flexRow--box_quantity_button :global(.vtex-add-to-cart-button-0-x-buttonText) {
-    font-size: 8px;
-     opacity: 0;
-}
-
 .flexRow--box_quantity_button :global(.vtex-button) {
-  border: none;
-  border-radius: 0px;
+    border: none;
+    border-radius: 0px;
+ font-size: 12px;
 }
 
 .flexRow--box_quantity_button :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -30,7 +22,7 @@
 
 /* --------------- */
 
-.flexRow--box_quantity_button  .flexRowContent {
+.flexRow--box_quantity_button .flexRowContent {
     background-color: #FFFFFF;
 }
 
@@ -39,23 +31,6 @@
     background-color: #441AFA;
     border: none;
     position: relative;
-}
-.flexRow--box_quantity_button :global(.vtex-button )::before {
-    content: 'comprar';
-    font-size: 12px;
-    top: 50%;
-    left: 28%;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
-    letter-spacing: 1.2px;
-    position: absolute;
-    z-index: 500;
-}
-
-
-.flexRow--box_quantity_button :global(.vtex-product-summary-2-x-buyButton) {
-    background-color: #441AFA;
-    border: none;
 }
 
 
@@ -66,7 +41,7 @@
 }
 
 
-.flexRow--box_quantity_button :global(.vtex-numeric-stepper__input ){
+.flexRow--box_quantity_button :global(.vtex-numeric-stepper__input) {
     color: #989898;
     width: 40px;
     height: 40px;
@@ -80,25 +55,29 @@
 
 @media (max-width: 640px) {
     .flexRow--box_quantity_button :global(.vtex-product-summary-2-x-buyButtonContainer) {
-        width:87px;
+        width: 87px;
         margin-left: 5px;
     }
 
-    .flexRow--box_quantity_button :global(.vtex-button )::before {
+    .flexRow--box_quantity_button :global(.vtex-button)::before {
         left: 13%;
     }
 
-    .flexRow--box_quantity_button :global(.vtex-numeric-stepper__input ){
-       width: 20px;
+    .flexRow--box_quantity_button :global(.vtex-numeric-stepper__input) {
+        width: 20px;
     }
 
     .flexRowContent--box_quantity_button {
         width: 130px;
-       display: flex;
+        display: flex;
     }
-   .flexRow--box_quantity_button {
-    background-color: #FFFFFF;
-   }
- 
-  
+
+    .flexRow--box_quantity_button {
+        background-color: #FFFFFF;
+    }
+
+    .flexRow--box_quantity_button :global(.vtex-button) {
+        max-width: 80px;
+    }
+
 }

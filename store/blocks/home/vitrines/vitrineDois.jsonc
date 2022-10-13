@@ -30,7 +30,8 @@
 //  ----  NEW BUTTON
 "add-to-cart-button#buy_Button2": {
   "props":{
-    "blockClass": "box_buy_button_"
+    "blockClass": "box_buy_button_",
+    "text": "comprar"
   }
 },
 
