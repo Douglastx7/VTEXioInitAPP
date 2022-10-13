@@ -1,0 +1,25 @@
+.flexRow--box_title_depart {
+    background-color: #FFFFFF !important;
+    max-width: 1252px;
+    margin: 250px auto 0;
+}
+
+/* ---- */
+.flexRow--box_text_depart {
+    background-color: #FFFFFF !important;
+    max-width: 1252px;
+    margin: 0 auto;
+}
+/* --------------------------------------- VITRINE----- */
+
+.flexRow--container_vitrine_department {
+    background-color: #FFFFFF !important;
+    max-width: 1252px;
+    margin: 0 auto;
+}
+
+
+.flexRow--container_vitrine_department :global(.vtex-slider-layout-0-x-sliderTrackContainer) {
+    background-color: #FFFFFF ;
+}
+

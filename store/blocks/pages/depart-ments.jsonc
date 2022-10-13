@@ -1,0 +1,198 @@
+{
+    "store.custom#department": {
+      "blocks": [
+        "flex-layout.row#container_department",
+        "flex-layout.row#title_department",
+        "flex-layout.row#text_department",
+        "flex-layout.row#section_filtros_vitrine"
+    ],
+      "props": {
+        "blockClass": "container_custom"
+      }
+    },
+
+// ------------- BANNER
+    "flex-layout.row#container_department": {
+        "children": [
+            "image#banner_department"
+        ]
+    },
+    "image#banner_department": {
+        "props": {
+            "src": "assets/imgs/banners/department.jpg",
+             "width": 1920,     
+            "height": 250,
+            "blockClass": "banner_department_class"
+        }
+    },
+
+// ------------- TITLE
+    "flex-layout.row#title_department": {
+      "children": [
+        "rich-text#title_departament"
+      ],
+      "props": {
+        "blockClass": "box_title_depart"
+    }
+    },
+    "rich-text#title_departament": {
+        "props": {
+            "text": "departamento",
+            "blockClass": "class_title_departament"
+        }
+    },
+    "flex-layout.row#text_department":{
+        "children": [
+            "rich-text#departament_text"
+        ],
+        "props": {
+            "blockClass": "box_text_depart"
+        }
+    },
+    "rich-text#departament_text": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+            "blockClass": "class_text_departament"
+        }
+    },
+// -------------
+
+
+   "flex-layout.row#section_filtros_vitrine": {
+    "children": [
+        "flex-layout.row#box_vitrine_department"
+   
+    ],
+    "props": {
+        "blockClass": "container_vitrine_department"
+    }
+   },
+
+   "flex-layout.col#box_filtros": {
+    "children": [
+
+    ]
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   "flex-layout.row#box_vitrine_department": {
+    "children": [
+        "list-context.product-list#demo_department"
+    ]
+   },
+
+
+//    =====================================================================================
+"product-summary.shelf#demo_department": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "flex-layout.row#box_quantity_button_department"
+    ]
+  },
+
+"flex-layout.row#box_quantity_button_department": {
+"children": [
+  "product-quantity",
+  "add-to-cart-button#buy_Button"
+],
+"props": {
+  "blockClass": "box_quantity_button"
+}
+},
+
+"product-quantity": { 
+  "props": {
+    "showLabel": false
+  }
+},
+
+"product-summary-image": {
+  "props": {
+    "width": 298
+  }
+},
+
+//  ----  NEW BUTTON
+"add-to-cart-button#buy_Button": {
+  "props":{
+    "blockClass": "box_buy_button_",
+    "text": "comprar"
+  }
+},
+
+
+  "list-context.product-list#demo_department": {
+    "blocks": [
+      "product-summary.shelf#demo1"
+    ],
+    "children": [
+      "flex-layout.row#box_geral_vitrine_department"
+    ],
+    "props": {
+      "blockClass": "box-list-context_product_vitrine"
+    }
+  },
+
+
+  "flex-layout.row#box_geral_vitrine_department": {
+    "children": [
+      "slider-layout#banner_vitrine_department"
+    ],
+    "props": {
+      "blockClass": "box_geral_vitrine"
+    }
+  },
+
+  "slider-layout#banner_vitrine_department": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 2
+      },
+      "blockClass": "box-slider_vitrine_1",
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+    }
+  }
+
+//    ============================
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+  }
+
+  

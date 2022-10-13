@@ -38,7 +38,8 @@
 "rich-text#title_depart_1": {
   "props": {
     "text": "Departamento 1",
-    "blockClass":"title_depart_s"
+    "blockClass":"title_depart_s",
+    "href": "#"
   }
 },
 "rich-text#ver-todos_depart_1": {
@@ -57,7 +58,7 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "#", 
         "noFollow": false,
         "tagTitle": "categoria 1",
         "text": "categoria 1"
