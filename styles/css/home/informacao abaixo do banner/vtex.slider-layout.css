@@ -2,3 +2,9 @@
  .slideChildrenContainer--box_slider_mobile {
      background-color: #EEEEEE;
  }
+
+ @media (max-width: 640px) {
+    .slideChildrenContainer--box_slider_mobile {
+        margin-top: 0px;
+    }  
+ }

@@ -1,6 +1,3 @@
-.slideChildrenContainer {
-    margin-top: 13px;
-}
 
 .paginationDotsContainer {
     margin-bottom: 15px;
@@ -18,4 +15,9 @@
     background-color: #25282A;
     border: 1px solid #FFFFFF;
     opacity: 1;
+}
+
+.slideChildrenContainer--box_banner_desktop {
+    margin: 13px auto 0;
+    max-width: 1252px;
 }

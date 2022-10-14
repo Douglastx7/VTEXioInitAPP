@@ -16,28 +16,26 @@
                 "phone": 1
             },
             "infinite": true,
-            "showNavigationArrows": "never"
+            "showNavigationArrows": "never",
+            "blockClass": "box_banner_desktop"
         }
     },
     "image#banner1": {
         "props": {
             "src": "assets/imgs/banners/shopnow-desktop.png",     
-            "width": 1252,
-            "height": 460
+            "blockClass": "imgs_slider_inicio_desktop"
         }
     },
     "image#banner2": {
         "props": {
             "src": "assets/imgs/banners/shopnow-desktop.png",
-             "width": 1252,     
-            "height": 460
+            "blockClass": "imgs_slider_inicio_desktop"
         }
     },
     "image#banner3": {
         "props": {
             "src": "assets/imgs/banners/shopnow-desktop.png",
-            "width": 1252,    
-            "height": 460
+            "blockClass": "imgs_slider_inicio_desktop"
         }
     },
 
@@ -69,24 +67,18 @@
     "image#banner1_mobile": {
         "props": {
             "src": "assets/imgs/banners/shopnow-mobile.png",     
-            "width": 414,
-            "height": 250,
             "blockClass": "imgs_slider_inicio"
         }
     },
     "image#banner2_mobile": {
         "props": {
             "src": "assets/imgs/banners/shopnow-mobile.png",
-             "width": 414,     
-            "height": 250,
             "blockClass": "imgs_slider_inicio"
         }
     },
     "image#banner3_mobile": {
         "props": {
             "src": "assets/imgs/banners/shopnow-mobile.png",
-            "width": 414,    
-            "height": 250,
             "blockClass": "imgs_slider_inicio"
         }
     }

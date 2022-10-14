@@ -2,10 +2,12 @@
 
 /* ===============================   TODOS OS DEPARTAMENTOS TITLE */
 
+.paragraph--todos-os-departamento-title {
+    margin: 0;
+}
+
 .wrapper--todos-os-departamento-title { 
-margin: 0 auto;
-margin-top: 95px;
-margin-bottom: 30px;
+margin: 80px auto 30px;
 color: #25282A;
 letter-spacing: 1.6px;
 font-size: 22px;
@@ -24,7 +26,11 @@ text-transform: uppercase;
 @media (max-width: 640px) {
     .wrapper--todos-os-departamento-title { 
         margin-top: 40px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         font-size: 16px;
         }
+
+        /* .paragraph--todos-os-departamento-title {
+            margin: 0;
+        } */
 }

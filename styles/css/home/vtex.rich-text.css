@@ -75,17 +75,3 @@
     position: absolute;
 }
 
-
-
-/* ===============================   TODOS OS DEPARTAMENTOS TITLE */
-
-.wrapper--todos-os-departamento-title { 
-margin: 0 auto;
-margin-top: 95px;
-margin-bottom: 30px;
-color: #25282A;
-letter-spacing: 1.6px;
-font-size: 22px;
-font-weight: bold;
-text-transform: uppercase;
-}

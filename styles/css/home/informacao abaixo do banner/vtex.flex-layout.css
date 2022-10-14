@@ -25,6 +25,8 @@
 
 
 @media (max-width: 640px) {
+
+    
     .flexCol--info_box_geral {
        justify-content: center;
        height: 62px;

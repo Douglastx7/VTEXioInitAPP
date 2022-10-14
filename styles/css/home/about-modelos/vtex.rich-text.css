@@ -6,19 +6,10 @@
   text-transform: uppercase;
   position: relative;
   margin-top: 70px;
-  margin-left: 27px;
+    margin-left: 27px;
 }
 
-.heading--title-h1::before {
-    content: '<h1>';
-    font-size: 7px;
-    left: -27px;
-    bottom: 6px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-    position: absolute;
-}
+
 
 .wrapper--sobre-h2 {
     width: 474px;
@@ -36,7 +27,7 @@
     font-weight: bold;
     width: 251px;
     height: 48px;
-  margin-top: -30px;
+    margin-bottom: 10px;
     border: solid 1px #000000;
     cursor: pointer;
     position: relative;
@@ -61,6 +52,7 @@
     color: #441AFA;
     font-size: 32px;
     margin-top: 40px;
+    margin-left: 0px;
     letter-spacing: 9.6px;
   }
   .container--sobre-h2 {

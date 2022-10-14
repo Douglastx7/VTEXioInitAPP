@@ -1,7 +1,8 @@
+
 @media (max-width: 1025px) {
    
     .autoCompleteOuterContainer {
-        width: 371px;
+        max-width: 871px;
         height: 48px;
     }
     .searchBarIcon--search::after {
@@ -12,4 +13,26 @@
         right: 0;
         position: absolute;
     }
+}
+
+@media (max-width: 640px) { 
+    .autoCompleteOuterContainer {
+        max-width: 371px;
+        height: 48px;
+    }
+}
+
+
+@media (max-width: 405px) { 
+    .autoCompleteOuterContainer {
+        max-width: 270px;
+        height: 48px;
+    }
+}
+
+
+@media (max-width: 360px)  {
+    .logoImage{
+        margin-left: 17px;
+        }
 }
