@@ -1,6 +1,6 @@
 .flexRow--box_geral_vitrine {
     max-width: 1252px;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 
 .flexRow--box_geral_vitrine :global(.vtex-store-components-3-x-container) {
@@ -13,7 +13,7 @@
 .flexRow--box_quantity_button :global(.vtex-button) {
     border: none;
     border-radius: 0px;
- font-size: 12px;
+    font-size: 12px;
 }
 
 .flexRow--box_quantity_button :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -64,7 +64,8 @@
     }
 
     .flexRow--box_quantity_button :global(.vtex-numeric-stepper__input) {
-        width: 20px;
+        max-width: 12px;
+        font-size: 16px;
     }
 
     .flexRowContent--box_quantity_button {
@@ -80,4 +81,41 @@
         max-width: 80px;
     }
 
+}
+
+@media (max-width: 430px) { 
+
+    .flexRow--box_quantity_button :global(.vtex-button) {
+       width: 65px;
+     }
+
+     .flexRow--box_quantity_button :global(.vtex-add-to-cart-button-0-x-buttonText) {
+        font-size: 11px;
+     }
+
+   .flexRow--box_quantity_button :global(.vtex-numeric-stepper__input) {
+        margin-left: 5px;
+    }
+
+    .flexRow--box_quantity_button :global(.vtex-numeric-stepper__minus-button-container) {
+        width: 20px;
+    }
+
+    .flexRow--box_quantity_button :global(.vtex-numeric-stepper__plus-button) {
+        width: 25px !important;
+    }
+
+    .flexRow--box_quantity_button :global(.vtex-numeric-stepper__plus-button__text) {
+        font-size: 20px !important;
+        font-weight: bold !important;
+    }
+
+    .flexRow--box_quantity_button :global(.vtex-numeric-stepper__minus-button) {
+        width: 25px !important;
+    }
+
+    .flexRow--box_quantity_button :global(.vtex-numeric-stepper__minus-button__text) {
+        font-size: 20px !important;
+        font-weight: bold !important;
+    }
 }

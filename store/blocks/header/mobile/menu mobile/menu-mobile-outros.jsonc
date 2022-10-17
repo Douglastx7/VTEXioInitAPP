@@ -28,7 +28,8 @@
             "text": "minha conta"
           },
           "blockClass": [
-          "minha-conta_e_atendimento"
+            "minha-conta_e_atendimento",
+           "minha_conta_class"
           ]
         }
       },
@@ -71,7 +72,7 @@
             "text": "lojas parceiras"
           },
           "blockClass": [
-          "loja_e_seja_um"
+          "loja_e_seja_um","lojas_parceiras_class"
           ]
         }
       },
@@ -93,7 +94,7 @@
             "text": "seja um representante"
           },
           "blockClass": [
-            "loja_e_seja_um"
+            "loja_e_seja_um", "seja_um_representante_class"
           ]
         }
       },
@@ -114,7 +115,7 @@
             "text": "seja um revendedor"
           },
           "blockClass": [
-            "loja_e_seja_um"
+            "loja_e_seja_um", "seja_um_revendedor_class"
           ]
         }
       }

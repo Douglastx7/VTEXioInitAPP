@@ -6,11 +6,24 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
+
+   
 }
 .flexColChild--box-col-banners_sale {
  margin-left: 10px;
 }
 
+
+/* 
+.flexCol--box-col-banners_new-in {
+    width: 616px;
+    height:  559px;
+} */
+
+/* .flexCol--box-col-banners_sale {
+    width: 616px;
+    height:  559px;
+} */
 
 
 

@@ -10,6 +10,11 @@
 
 .menuItemInnerDiv--mobile__acoordion {
 position: relative;
+margin-bottom: 27px;
+}
+
+.menuItem--mobile__acoordion--isOpen .menuItemInnerDiv--mobile__acoordion  {
+    margin-bottom: 0px;
 }
 
 
@@ -22,12 +27,18 @@ position: relative;
     background-position: center center;
     background-repeat: no-repeat;
     right: 10px;
-    top: 30%;
+    top: 15%;
     transform: translateY(-50%);
     transform: rotate(90deg);
     position: absolute;
     transition: .3s;
 }
+
+.submenuAccordion {
+    padding-top: 14px;
+    margin-bottom: 30px;
+}
+
 
 /* ====================== */
 

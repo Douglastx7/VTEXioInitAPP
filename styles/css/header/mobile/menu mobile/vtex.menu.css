@@ -27,6 +27,13 @@
 
 /* ===================================================   OUTROS */
 
+.styledLinkContainer--minha_conta_class  {
+  padding-bottom: 0px;
+}
+
+.styledLinkContainer--minha-conta_e_atendimento  {
+  padding-top: 20px;
+}
 
 .menuItem--minha-conta_e_atendimento {
     background-color: #FFFFFF;
@@ -37,20 +44,29 @@
     color: #441AFA;
     font-size: 14px;
     font-weight: bold;
-
     letter-spacing: 1.4px;
     text-transform: uppercase;
+}
+
+.styledLinkContainer--lojas_parceiras_class,
+.styledLinkContainer--seja_um_representante_class {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.styledLinkContainer--seja_um_revendedor_class {
+  padding-top: 20px;
+  padding-bottom: 44px;
+
 }
 
 .styledLinkContent--loja_e_seja_um {
     color: #25282A;
     font-size: 14px;
     font-weight: bold;
-
     letter-spacing: 1.4px;
     text-transform: uppercase;
 }
-
 
 .menuItemInnerDiv--dpts_mobile {
     background-color: #FFFFFF;
@@ -89,7 +105,7 @@
     background-size: auto;
     background-position: center center;
     background-repeat: no-repeat;
-    right: 10px;
+    right: 20px;
     top: 30%;
     transform: translateY(-50%);
     transform: rotate(90deg);
@@ -100,13 +116,13 @@
   .menuItemInnerDiv--dpts_mobile:hover::after,
   .menuItemInnerDiv--categs_mobile:hover::after {
     content: '';
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-image: url('assets/icons/seta-azulOUroxa.png');
     background-size: auto;
     background-position: center center;
     background-repeat: no-repeat;
-    right: 10px;
+    right: 20px;
     top: 30%;
     transform: translateY(-50%);
     transform: rotate(90deg);
@@ -131,7 +147,7 @@
     background-size: auto;
     background-position: center center;
     background-repeat: no-repeat;
-    right: 10px;
+    right: 20px;
     top: 30%;
     transform: translateY(-50%);
     transform: rotate(-90deg);
@@ -141,6 +157,7 @@
 
   .submenuAccordion--subAcordion_todos_mobile {
     background-color: #FFFFFF;
+    margin-bottom: 0px;
   }
 
   .styledLinkContent--categs_mobile {
