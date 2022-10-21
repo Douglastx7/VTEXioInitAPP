@@ -22,8 +22,6 @@
     "image#new-in__": {
         "props": {
             "src": "assets/imgs/banners/banner-newin.png",
-            "height": 559,
-            "width": 616,
             "blockClass": "box-banner-img_newin"
         }
     },
@@ -42,8 +40,6 @@
     "image#sale__": {
         "props": {
             "src":  "assets/imgs/banners/banner-sale.png",
-            "height": 559,
-            "width": 616,
             "blockClass": "box-banner-img_sale"
         }
     },
@@ -73,8 +69,6 @@
     "image#new-in____mobile": {
         "props": {
             "src": "assets/imgs/banners/banner-newin.png",
-            "height": 345,
-            "width": 374,
             "blockClass": "box-banner-img_newin"
         }
     },
@@ -93,8 +87,6 @@
     "image#sale____mobile": {
         "props": {
             "src":  "assets/imgs/banners/banner-sale.png",
-            "height": 345,
-            "width": 374,
             "blockClass": "box-banner-img_sale"
         }
     }
