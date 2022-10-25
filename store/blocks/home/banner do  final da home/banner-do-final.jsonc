@@ -11,8 +11,6 @@
     "image#banner-final": {
         "props": {
             "src": "assets/imgs/banners/banner-frete-desktop.png",
-            "width": 1252,
-            "height": 421,
             "blockClass": "img-banner-final"
         }
     },
@@ -31,8 +29,6 @@
     "image#banner-final_mobile": {
         "props": {
             "src": "assets/imgs/banners/banner-frete-mobile.png",
-            "width": 414,
-            "height": 187,
             "blockClass": "img-banner-final"
         }
     }

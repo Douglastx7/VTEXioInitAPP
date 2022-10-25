@@ -40,24 +40,18 @@
     "image#banner_eletronico": {
         "props": {
             "src":  "assets/imgs/products/group1-electronics.png",
-            "height": 300,
-            "width": 390,
             "blockClass": "box-imgs-banner-products"
         }
     },
     "image#banner_roupa": {
         "props": {
             "src":  "assets/imgs/products/group1-clothes.png",
-            "height": 300,
-            "width": 390,
             "blockClass": "box-imgs-banner-products"
         }
     },
     "image#banner_acessorio": {
         "props": {
             "src":  "assets/imgs/products/group1-glasses.png",
-            "height": 300,
-            "width": 390,
             "blockClass": "box-imgs-banner-products"
         }
     },
@@ -80,8 +74,6 @@
     "image#perfume": {
         "props": {
             "src":  "assets/imgs/products/group1-perfume.png",
-            "height": 300,
-            "width": 390,
             "blockClass": "box-imgs-banner-products"
         }
     },
@@ -89,8 +81,6 @@
     "image#consmetico": {
         "props": {
             "src":  "assets/imgs/products/group1-cosmetics.png",
-            "height": 300,
-            "width": 390,
             "blockClass": "box-imgs-banner-products"
         }
     },
@@ -98,8 +88,6 @@
     "image#calcados": {
         "props": {
             "src":  "assets/imgs/products/group1-sneakers.png",
-            "height": 300,
-            "width": 390,
             "blockClass": "box-imgs-banner-products"
         }
     },
