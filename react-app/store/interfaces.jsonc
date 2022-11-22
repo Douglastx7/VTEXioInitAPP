@@ -1,0 +1,9 @@
+{
+    "appexample": {
+        "component": "HelloWorldT"
+    },
+
+    "react-custom-breadcrumb": {
+        "component": "Breadcrumb"
+      }
+}

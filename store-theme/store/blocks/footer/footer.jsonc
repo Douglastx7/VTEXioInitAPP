@@ -316,7 +316,8 @@
       "accepted-payment-methods",
       "flex-layout.row#icons-networks",
       "flex-layout.col#footer-2-mobile",
-      "rich-text#footer-mobile"
+      "rich-text#footer-mobile",
+      "flex-layout.col#logos-bottom-footer-desktop"
         ],
     "props": {
       "blockClass": "payment-methods",
